@@ -1,0 +1,53 @@
+.bg{
+    width: 1280px;
+    height: 720px;
+}
+
+.channel_scroll{
+    width: 150px;
+    height: 720px;
+    overflow: hidden;
+}
+
+.channel_bg{
+    width: 150px;
+    height: 630px;
+    left: 0px;
+    top: 45px;
+    overflow: hidden;
+}
+
+.channel_bg{
+    background: gray;
+    opacity: 0.5;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.channel_list{
+    width: 150px;
+    height: 600px;
+    left: 0px;
+    top: 60px;
+    overflow: hidden;
+}
+
+.channel_list .item{
+    width: 150px;
+    height: 45px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.channel_list .item_focus{
+    background: darkorange;
+}
+
+.channel_list .text{
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    white-space: nowrap;
+    line-height: 45px;
+    text-align: center;
+}
