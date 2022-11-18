@@ -6,7 +6,7 @@ module.exports = {
     entry: './src/main',
     output: {
         filename: "[name].js",
-        path: path.resolve(__dirname, './dist'),
+        path: path.resolve(__dirname, './dist')
     },
     module: {
         rules: [
@@ -23,16 +23,16 @@ module.exports = {
                 resolve: {}
             },
             {
-                //匹配js，使用babel-loader进行代码转化
-                // test:/\.js$/,
-                // use:{
-                //     loader: "babel-loader"
-                // }
+                //匹配js，使用babel-loader进行代码转化,将代码转成es5（配置在.babelrc文件）
+                test: /\.js$/,
+                use: {
+                    loader: "babel-loader"
+                }
             },
             {
                 test: [/\.html$/],
                 include: path.resolve(__dirname, 'src/html/'),
-                use: ["html-withimg-loader", "view-html-loader"],//html-withimg-loader,图片使用url-loader另行打包
+                use: ["html-withimg-loader", "view-html-loader"],
             },
             // {
             //     test: [/\.html$/],
@@ -47,7 +47,6 @@ module.exports = {
                     options: {
                         name: "static/[path][name].[ext]",
                         output: "imgs",
-                        context: path.resolve(__dirname, './src'),//过滤掉[path]的相对路径
                     }
                 },
             },
@@ -60,15 +59,13 @@ module.exports = {
                         limit: 5000,
                         name: 'static/[path][name].[ext]',
                         context: path.resolve(__dirname, './src'),//过滤掉[path]的相对路径
-                        publicPath:'./',
+                        publicPath: './',
                         esModule: false
                     }
 
                 }]
 
             }
-
-
         ],
         // noParse: /jquery/
     },
@@ -104,15 +101,15 @@ module.exports = {
 
     performance: {
         hints: 'error',//提示等级
-        maxAssetSize: 10 * 1024 * 1024, // 文件大小提示阈值，整数类型（以字节为单位）1M，超过这个大小，会提示
-        maxEntrypointSize: 10 * 1024 * 1024 // 文件大小性能阈值，整数类型（以字节为单位）1M，超过这个大小，打包失败
+        maxAssetSize: 2 * 1024 * 1024, // 文件大小提示阈值，整数类型（以字节为单位）1M，超过这个大小，会提示
+        maxEntrypointSize: 2 * 1024 * 1024 // 文件大小性能阈值，整数类型（以字节为单位）1M，超过这个大小，打包失败
     },
     resolveLoader: {
         modules: [path.resolve(__dirname, "./core/loader"), 'node_modules']
     },
     // devServer: {//一般使用默认
-    // },
-    //使用source-map直接调试es6代码
-    // devtool: 'source-map',
+    // }
+    devtool: 'source-map',//打包时，注释掉这行
+    // devtool: false,//打包时，解注释这行
     stats: "errors-only",
 }

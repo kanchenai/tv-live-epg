@@ -28,13 +28,58 @@
 
 
 ### 打包
+
 注释webpack.config.js中的"devtool: 'source-map'"
+
+解注释devtool: false
 ```javascript
-    devtool: 'source-map'
+    devtool: 'source-map',//打包时，注释掉这行
+    // devtool: false,//打包时，解注释这行
 ```
 
+将打包模式为生产模式
+```javascript
+    mode: "development"//运行环境：开发环境
+    // mode: "production",//运行环境：生产环境
+```
 
-### 
+#### 图片注意点
+
+* 在html直接设置的图片要放置在images文件夹，直接使用
+```html
+    <img src="../images/bg.jpg" alt="">
+```
+
+* 在js中使用，动态设置的图片，要放置在images-js文件夹中，用import导入再使用
+```javascript
+    import pic_001 from "@images-js/pic_001.png"
+
+    var image = holder.findViewById("pic");
+    image.src = pic_001;
+```
+
+#### 文字跑马灯注意点
+
+* 会自动加上overflow:hidden;line-height:{height}
+* white-space: nowrap;判定为横向跑马灯
+* 其他情况为纵向跑马灯；多个单词可能为多行，或者使用<br>强制换行，当多行时可执行纵向跑马灯
+
+#### 全局滚动开关
+
+State.ScrollAnimation值：
+true:打开
+false:关闭
+
+* 在main.js
+```javascript
+  window.onload = function () {
+    State.ScrollAnimation = true;//控制滚动动画开关
+    //需要在css加载完之后才能启动app
+    window.application = new MyApplication("app");
+    window.application.launch();
+  }
+```
+
 #### 开发者须知
 
 * 1.该框架的运行环境 node，使用webpack打包

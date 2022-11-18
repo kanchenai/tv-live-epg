@@ -1,9 +1,9 @@
 import Keyboard from "@core/frame/app/Keyboard";
-import State from "@core/frame/util/State";
 import GroupView from "@core/frame/view/group/GroupView";
 import PageManager from "@core/frame/page/PageManager";
 import {Scroller} from "@core/frame/view/base/ScrollView";
 import View from "@core/frame/view/base/View";
+import {PageLifeState} from "@core/frame/page/Page";
 
 require("../../css/style.css");
 
@@ -11,7 +11,7 @@ require("../../css/style.css");
  * view-app的版本号
  * @type {string}
  */
-export var version = "0.2.3(2022-10-22)";
+export var version = "0.2.4(2022-11-17)";
 
 export default class Application extends GroupView {
     constructor(id) {
@@ -42,13 +42,13 @@ export default class Application extends GroupView {
          * 启动模式
          * @type {string}
          */
-        this.launchMode = State.LaunchMode.ENTER;
+        this.launchMode = LaunchMode.ENTER;
         /**
          * 启动页面模式
          * 单页面/多页面
          * @type {string}
          */
-        this.pageMode = State.PageMode.SINGLE;
+        this.pageMode = PageMode.SINGLE;
     }
 
     launch() {
@@ -62,7 +62,7 @@ export default class Application extends GroupView {
         var param = null;//第一个页面的参数信息
         var firstPage = null;
         if (!pageInfoList || pageInfoList.length == 0) {
-            this.launchMode = State.LaunchMode.ENTER;
+            this.launchMode = LaunchMode.ENTER;
             console.log("当前启动模式：" + this.launchMode);
             //清理缓存
             this.clearCache();
@@ -70,7 +70,7 @@ export default class Application extends GroupView {
             firstPage = object.firstPage;
             param = object.param;
         } else {
-            this.launchMode = State.LaunchMode.BACK;
+            this.launchMode = LaunchMode.BACK;
             console.log("当前启动模式：" + this.launchMode);
             this.pageManager.recoveryPageList();
             param = this.pageManager.popPageInfo().param;//从pageManager中出栈顶页面的参数
@@ -136,12 +136,10 @@ export default class Application extends GroupView {
     startPage(page, param) {
         page.application = this;
 
-        if (this.foregroundPage && this.foregroundPage.lifeState == State.LifeState.RUN) {
+        if (this.foregroundPage && this.foregroundPage.lifeState == PageLifeState.RUN) {
             this.foregroundPage.pause();
         }
         this.foregroundPage = page;
-        this.keyboard.page = null;//保护，防止异常触发按键
-        this.player.page = null;//保护，防止异常触发
 
         if (param) {
             param = param.clone();//避免移除ViewManager中的pageInfoList异常
@@ -151,8 +149,6 @@ export default class Application extends GroupView {
         page.create(param);
         page.resume();
         this.measure();
-        this.keyboard.page = page;
-        this.player.page = page;
         page.isForeground = true;
 
         // console.log(this.pageList);
@@ -163,15 +159,15 @@ export default class Application extends GroupView {
      * @param{Page} page
      */
     finishPage(page) {
-        if (page.lifeState == State.LifeState.RUN) {//运行中
+        if (page.lifeState == PageLifeState.RUN) {//运行中
             page.pause();
         }
 
-        if (page.lifeState == State.LifeState.PAUSE) {//暂停
+        if (page.lifeState == PageLifeState.PAUSE) {//暂停
             page.stop();
         }
 
-        if (page.lifeState == State.LifeState.STOP) {//停止
+        if (page.lifeState == PageLifeState.STOP) {//停止
             page.destroy();
         }
         var pageInfo = this.pageManager.popPageInfo();//将栈顶数据出栈
@@ -195,18 +191,18 @@ export default class Application extends GroupView {
         var page = this.pageList.peek();
 
         //正在运行，无动作
-        if (page.lifeState == State.LifeState.RUN) {
+        if (page.lifeState == PageLifeState.RUN) {
             return;
         }
         this.foregroundPage = page;
         this.keyboard.page = null;//保护，防止异常触发
         this.player.page = null;//保护，防止异常触发
         page.isForeground = true;
-        if (page.lifeState == State.LifeState.BEFORE_CREATE) {//页面未创建
+        if (page.lifeState == PageLifeState.BEFORE_CREATE) {//页面未创建
             page.application = this;
             var param = this.pageManager.popPageInfo().param;
             page.create(param);
-        } else if (page.lifeState == State.LifeState.STOP) {//页面停止，重新创建
+        } else if (page.lifeState == PageLifeState.STOP) {//页面停止，重新创建
             var param = page.param;
             this.pageManager.popPageInfo();//或者this.pageManager.removePageInfo(param);
             page.create(param);
@@ -215,8 +211,6 @@ export default class Application extends GroupView {
         if (backResultData) {
             page.onResult(backResultData);//将返回数据传递到上一个一个页面
         }
-        this.keyboard.page = page;
-        this.player.page = page;
     }
 
     /**
@@ -372,3 +366,21 @@ Object.prototype.concat = function (object) {
         this[key] = object[key];
     }
 }
+
+/**
+ * app启动状态枚举
+ */
+export var LaunchMode = {
+    //启动APP
+    ENTER: "ENTER",
+    //返回APP
+    BACK: "BACK"
+};
+
+/**
+ * 页面模式
+ */
+export var PageMode = {
+    SINGLE: "SINGLE",
+    MULTIPLE: "MULTIPLE"
+};

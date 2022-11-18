@@ -1,100 +1,155 @@
-import VideoPlayer from "@core/frame/player/VideoPlayer";
+import RealPlayer from "@core/frame/player/RealPlayer";
 
-export default class AliWebPlayer extends VideoPlayer{
+export default class AliWebPlayer extends RealPlayer {
     constructor() {
         super();
 
         this.divId = "player-con";
         this.isInit = false;//是否已加载js和css文件
         this.isLive = true;//是否时直播
-        initPlayer(this);
+        initPlayer(this);//加载js和css
         this.player = null;
+        this._mute = false;
+
+        this.needPlay = false;
+
+        //记录宽高，用以继续播放时，设置
+        this.width = 0;
+        this.height = 0;
     }
 
-    play(startTime, playInfo){
-        if(this.isInit){
-            super.play(startTime, playInfo);
-            createPlayer(this);
-
-            this.startRefreshPlayerState();
-        }else{
+    play(startTime, playInfo) {
+        this.width = playInfo.width;
+        this.height = playInfo.height;
+        if (this.isInit) {
+            this.needPlay = true;
+            createPlayer(this, playInfo);
+        } else {
             var that = this;
             //延迟之后重试
-            setTimeout(function (){
+            setTimeout(function () {
                 that.play(startTime, playInfo)
-            },500);
+            }, 500);
         }
     }
 
     playByTime(time) {
+        this.needPlay = true;
         this.player.seek(time);
-        super.playByTime(time);
     }
 
     pause() {
-        this.player.pause();
-        super.pause();
+        this.needPlay = false;
+        if (this.player) {
+            this.player.pause();
+        }
     }
 
     resume() {
-        this.player.play();
-        super.resume();
+        this.needPlay = true;
+        if(this.isInit){
+            this.player.play();
+            if (this.player._el) {
+                var style = this.player._el.style;
+                style.width = this.width + "px";
+                style.height = this.height + "px";
+            }
+        }
     }
 
     stop() {
-        if(this.player){
+        this.needPlay = false;
+        if (this.player) {
             this.player.pause();
-            super.stop();
         }
-
     }
 
     destroy() {
-        this.player.dispose();
-        super.destroy();
+        this.needPlay = false;
+        try {
+            if (this.player) {
+                if (this.player._el) {
+                    var style = this.player._el.style;
+                    style.width = "10px";
+                    style.height = "10px";
+                    style.left = "-20px";
+                    style.top = "-20px";
+                }
+                this.player.dispose();
+            }
+        } catch (e) {
+        }
     }
 
     mute() {
-        this.player.muted(!this.isMute);
-        super.mute();
-    }
-
-    get realPosition() {
-        return Math.ceil(this.player.getCurrentTime());
-    }
-
-    get realDuration() {
-        var duration = this.player.getDuration();
-        if(isNaN(duration)){
-            duration = -1;
+        if (!this.isMute) {
+            if(this.player){
+                this.player.mute();
+            }
+            this._mute = true
+        } else {
+            this.volume = this.volume;
+            this._mute = false;
         }
-
-        return Math.ceil(duration);
     }
 
-    set realVolume(value) {
-        this.player.muted(false);
-        this.player.setVolume(value / 100);
+    get position() {
+        var value = -1;
+        if(this.player){
+            value = Math.ceil(this.player.getCurrentTime())
+        }
+        return value;
+    }
+
+    get duration() {
+        var value = -1;
+        if(this.player){
+            value = this.player.getDuration();
+            if (isNaN(value)) {
+                value = -1;
+            }
+        }
+        return Math.ceil(value);
+    }
+
+    set volume(value) {
+        console.log("set realVolume", value);
+        if(this.player){
+            this.player.muted(false);
+            this.player.setVolume(value / 100);
+        }
+    }
+
+    get volume() {
+        var value = 100;
+        if(this.player){
+            value = Math.ceil(this.player.getVolume() * 100);
+        }
+        return value;
+    }
+
+    get isMute() {
+        return this._mute;
     }
 
 }
 
-var createPlayer = function (webPlayer) {
-    var playInfo = webPlayer.playInfo;
+var createPlayer = function (webPlayer, playInfo) {
     var isLive = webPlayer.isLive;
 
-    if(webPlayer.player){
-        try{
+    if (webPlayer.player) {
+        try {
             webPlayer.player.dispose();
-        }catch (e){}
+        } catch (e) {
+        }
     }
 
-    webPlayer.player = new Aliplayer({
+    var aliplayer = new Aliplayer({
             "id": webPlayer.divId,
             "source": playInfo.playUrl,
             "width": playInfo.width + "px",
             "height": playInfo.height + "px",
-            "autoplay": true,
+            "autoplay": false,
             "isLive": isLive,
             "rePlay": false,
             "playsinline": true,
@@ -111,10 +166,24 @@ var createPlayer = function (webPlayer) {
                 }
             ]
         }, function (player) {
-            // console.log("The player is created");
+            webPlayer.player = player
+            console.log("The player is created");
+            setTimeout(function () {
+                if (webPlayer.needPlay) {
+                    player.play();
+                }
+            }, 0);
+
         }
     );
 
+    if (aliplayer._el) {
+        var style = aliplayer._el.style;
+        style.width = playInfo.width + "px";
+        style.height = playInfo.height + "px";
+        style.left = playInfo.left + "px";
+        style.top = playInfo.top + "px";
+    }
 }
 
 

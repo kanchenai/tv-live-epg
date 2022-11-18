@@ -1,7 +1,5 @@
 import Application from "../core/frame/app/Application";
 import HomePage from "./page/HomePage";
-import IptvPlayer from "@core/frame/player/IptvPlayer";
-import WebPlayer from "@src/util/WebPlayer";
 import AliWebPlayer from "@src/util/AliWebPlayer";
 
 require('./global_style.css')

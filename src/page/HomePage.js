@@ -2,9 +2,10 @@ import Page from "@core/frame/page/Page";
 import html from "@html/home.html"
 import {Adapter} from "@core/frame/view/group/RecycleView";
 import channel_data from "@src/mock-data/channel_data";
-import {PlayInfo} from "@core/frame/player/VideoPlayer";
+import VideoPlayer from "@core/frame/player/VideoPlayer";
 import {ScrollCenter} from "@core/frame/view/base/ScrollView";
 import channel_usual from "@src/mock-data/channel_usual";
+import PlayInfo from "@core/frame/player/PlayInfo";
 
 export default class HomePage extends Page {
     constructor() {
@@ -28,9 +29,21 @@ export default class HomePage extends Page {
 
 
         // this.findEleById("background").style.display = "none"
+
+        this.player = new VideoPlayer(this);
     }
 
     setView() {
+        this.player.onPositionChangeListener = "onPositionChangeListener";
+        this.player.onVolumeChangeListener = "onVolumeChangeListener";
+        this.player.onPlayStart = "onPlayStart";
+        this.player.onPlayComplete = "onPlayComplete";
+        this.player.onPlayPause = "onPlayPause";
+        this.player.onPlayResume = "onPlayResume";
+        this.player.onPlayStop = "onPlayStop";
+        this.player.onPlayError = "";
+        this.player.onPlayByTime = "onPlayByTime";
+
     }
 
     initUtil() {
@@ -43,12 +56,12 @@ export default class HomePage extends Page {
 
     onFocusChangeListener(view, hasFocus) {
         if (hasFocus) {
-            this.application.player.stop();
+            this.player.stop();
 
             console.log(view.data.url);
             var playUrl = view.data.url;
             var playInfo = new PlayInfo(playUrl, 0, 0, 1280, 720)
-            this.application.player.play(0, playInfo);
+            this.player.play(0, playInfo);
 
             this.hideChannel();
         }

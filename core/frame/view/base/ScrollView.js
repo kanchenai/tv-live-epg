@@ -1,6 +1,8 @@
 import View from "@core/frame/view/base/View";
 import ImageView from "@core/frame/view/single/ImageView";
 import ViewUtils from "@core/frame/util/ViewUtils";
+import TextView from "@core/frame/view/single/TextView";
+import State from "@core/frame/util/State";
 
 /**
  * ScrollView不能继承ItemView，Scroller报错
@@ -14,12 +16,17 @@ export default class ScrollView extends View {
         super(viewManager, listenerLocation);
         this.focusable = false;
         /**
-         *
+         * 多个跑马灯
+         * @type {TextView[]}
+         */
+        this._textList = [];
+        /**
+         * 多张图片
          * @type {ImageView[]}
          * @private
          */
         this._imageList = [];
-        this.animation = true;
+        this.animation = State.ScrollAnimation;
         //生成滚动器
         this.scroller = new Scroller(this);
     }
@@ -33,10 +40,55 @@ export default class ScrollView extends View {
         this.measure();
         //绑定ImageView
         this.bindImage();
+        //绑定TextView
+        this.bindText();
     }
 
     get html() {
         return this.scroller.html;
+    }
+
+    /**
+     * 绑定跑马灯
+     */
+    bindText() {
+        this._textList = [];//置空
+        TextView.bindTextByEle(this.ele, this);
+    }
+
+    /**
+     * 绑定跑马灯
+     * @param{TextView} text
+     */
+    set text(text) {
+        if (!text instanceof TextView) {
+            console.warn("ItemView 的跑马灯绑定异常！");
+            return;
+        }
+        text.fatherView = this;
+        //添加跑马灯
+        this._textList.push(text);
+
+        if (text.id) {
+            this.viewMap.set(text.id, text);
+        }
+    }
+
+    /**
+     * 绑定多个跑马灯
+     * @param{TextView[]} textList
+     */
+    set textList(textList) {
+        if (!textList || textList.length == 0) {
+            this._textList = [];//置空
+        }
+        for (var text of textList) {
+            this.text = text;
+        }
+    }
+
+    get textList() {
+        return this._textList;
     }
 
     /**
@@ -93,6 +145,8 @@ export default class ScrollView extends View {
     get imageList() {
         return this._imageList;
     }
+
+
 
     /**
      * 滚动到对应子控件
