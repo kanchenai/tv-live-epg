@@ -7,8 +7,8 @@ import LocalData from "../util/LocalData";
 export default class PageManager {
     constructor(application) {
         this.application = application;
-        this.pageInfoList = this.getPageInfo() || [];
         this.pageInfoKey = "PAGE_INFO";
+        this.pageInfoList = this.getPageInfo() || [];
 
         this._pageTypeCallback = function (pageName) {
             console.error("请在Application的子类中设置该回调！")
@@ -22,7 +22,11 @@ export default class PageManager {
      * @returns {{}}
      */
     createPageByName(pageName) {
-        return this._pageTypeCallback(pageName);
+        var page = this._pageTypeCallback(pageName);
+        if(!page){
+            console.error("pageTypeCallback方法中未定义'"+pageName+"'");
+        }
+        return page;
     }
 
     /**
@@ -31,6 +35,8 @@ export default class PageManager {
     recoveryPageList() {
         for (var pageInfo of this.pageInfoList) {
             var page = this.createPageByName(pageInfo.pageName);
+            page.application = this.application;
+            page.param = pageInfo.param;//将数据保存在爬格子中
             this.application.pageList.push(page);
         }
     }
@@ -42,8 +48,9 @@ export default class PageManager {
      */
     putPageInfo(page, param) {
         var pageName = page.pageName;
-        if (!pageName) {
+        if (!pageName) {//未设置pageName时，不会将当前页面保存信息保存
             console.error("pageName未设置");
+            return;
         }
         this.pageInfoList.push(new PageInfo(pageName, param));
 
@@ -68,7 +75,7 @@ export default class PageManager {
 
     /**
      * 把param对应的pageInfo从pageInfoList中删除
-     * @param param
+     * @param param 这个param是从pageInfoList中获取的，属于是同一个对象、同一个内存地址
      */
     removePageInfo(param) {
         for (var i = 0; i < this.pageInfoList.length; i++) {
@@ -101,7 +108,7 @@ export default class PageManager {
      * @returns {*[]}
      */
     getPageInfo() {
-        var data = LocalData.getData(this.pageInfoKey);
+        var data = LocalData.getData(this.pageInfoKey) || "[]";
         // data = '[{"pageName":"HomePage","param":{}},{"pageName":"ListPage","param":{"data":"llllll"}},{"pageName":"TestPage","param":{"data":"tttttt"}}]';
         var objects = JSON.parse(data);
         if (!objects || objects.length == 0) {

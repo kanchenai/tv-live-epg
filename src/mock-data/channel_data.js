@@ -288,10 +288,6 @@ export default [
         "url": "http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8"
     },
     {
-        "name": "德国MDF.1",
-        "url": "http://62.113.210.250/medienasa-live/mdf1_high/agustiny.m3u8"
-    },
-    {
         "name": "德国Noa 4 Norderstedt",
         "url": "http://hls1.wtnet.de/noa4/apple/wifi6500.m3u8"
     },
@@ -316,10 +312,6 @@ export default [
         "url": "http://skyianywhere2-i.akamaihd.net:80/hls/live/200275/tg24/playlist.m3u8"
     },
     {
-        "name": "西班牙Lancelot TV",
-        "url": "http://62.210.141.18:1935/directo/lancelot.television/live.m3u8"
-    },
-    {
         "name": "西班牙Navarra TV (Opt-2)",
         "url": "http://nws.nice264.com/SmilLive/getLiveIOS.smil?stream=NTV_livenatvmb&system=NTV&protocol=http_cupertino/playlist.m3u8"
     },
@@ -332,10 +324,6 @@ export default [
         "url": "http://europa-crtvg.flumotion.com/playlist.m3u8"
     },
     {
-        "name": "俄罗斯 Fashion",
-        "url": "http://95.67.47.115/hls/hdfashion_ua_hi/index.m3u8"
-    },
-    {
         "name": "俄罗斯Krasnaja Linija",
         "url": "http://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/playlist.m3u8"
     },
@@ -346,10 +334,6 @@ export default [
     {
         "name": "俄罗斯Muz Sojuz",
         "url": "http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8"
-    },
-    {
-        "name": "俄罗斯RBC (Opt-1)",
-        "url": "http://92.50.128.180/utv/1358/index.m3u8"
     },
     {
         "name": "俄罗斯Shanson TV (Opt-1)",
@@ -456,22 +440,6 @@ export default [
         "url": "http://www.elahmad.com/tv/m3u8/alkass.m3u8?id=alkass4"
     },
     {
-        "name": "澳视",
-        "url": "http://61.244.22.4/ch3/ch3.live/playelist.m3u8"
-    },
-    {
-        "name": "澳门有线 CH1",
-        "url": "http://202.175.127.77/live/show/ch1/index.m3u8"
-    },
-    {
-        "name": "澳门有线互动新闻",
-        "url": "http://202.175.127.77/live/show/ch2/index.m3u8"
-    },
-    {
-        "name": "澳门有线 CH3",
-        "url": "http://202.175.127.77/live/show/ch3/index.m3u8"
-    },
-    {
         "name": "唯心电视",
         "url": "http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8"
     },
@@ -480,72 +448,12 @@ export default [
         "url": "http://ms003.happytv.com.tw/live/OcScNdWHvBx5P4w3/index.m3u8?token=BIk2YfurpyjroYsSvl8Ciw&time=1558345786385"
     },
     {
-        "name": "耀才财经",
-        "url": "http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8"
-    },
-    {
         "name": "NHK华语视界",
         "url": "https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/zh/725580/livecom_zh.m3u8"
     },
     {
         "name": "KBS 2",
         "url": "http://msl.tvbayoplus.com:9083/live/lmgr218-live1/GJ/qP/GJqPMui6DQrYctmZxQDeig==/live.m3u8"
-    },
-    {
-        "name": "NHK総合",
-        "url": "http://203.162.235.41:16903"
-    },
-    {
-        "name": "NHK Eテレ",
-        "url": "http://203.162.235.41:16901"
-    },
-    {
-        "name": "NHK BSプレミアム",
-        "url": "http://203.162.235.41:16910"
-    },
-    {
-        "name": "TBSテレビ",
-        "url": "http://203.162.235.41:16907"
-    },
-    {
-        "name": "BS TBS",
-        "url": "http://203.162.235.41:16913"
-    },
-    {
-        "name": "テレビ朝日",
-        "url": "http://203.162.235.41:16906"
-    },
-    {
-        "name": "BS 朝日",
-        "url": "http://203.162.235.41:16914"
-    },
-    {
-        "name": "フジテレビ",
-        "url": "http://203.162.235.41:16904"
-    },
-    {
-        "name": "BSフジ",
-        "url": "http://203.162.235.41:16911"
-    },
-    {
-        "name": "テレビ東京",
-        "url": "http://203.162.235.41:16908"
-    },
-    {
-        "name": "BS 東京",
-        "url": "http://203.162.235.41:16915"
-    },
-    {
-        "name": "BS 日テレ",
-        "url": "http://203.162.235.41:16912"
-    },
-    {
-        "name": "日テレ",
-        "url": "http://203.162.235.41:16905"
-    },
-    {
-        "name": "WOWOW シネマ",
-        "url": "http://203.162.235.41:16916"
     },
     {
         "name": "群馬テレビ",
@@ -628,16 +536,8 @@ export default [
         "url": "http://nws.nice264.com/SmilLive/getLiveIOS.smil?stream=NTV_livenatvmb&system=NTV&protocol=http_cupertino/playlist.m3u8"
     },
     {
-        "name": "俄罗斯 Fashion",
-        "url": "http://95.67.47.115/hls/hdfashion_ua_hi/index.m3u8"
-    },
-    {
         "name": "俄罗斯Krasnaja Linija",
         "url": "http://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/playlist.m3u8"
-    },
-    {
-        "name": "俄罗斯RBC (Opt-1)",
-        "url": "http://92.50.128.180/utv/1358/index.m3u8"
     },
     {
         "name": "俄罗斯Shanson TV (Opt-1)",
@@ -680,10 +580,6 @@ export default [
         "url": "http://www.trimi.com.ar/provincial/streaming/mystream.m3u8"
     },
     {
-        "name": "阿根廷Garage TV",
-        "url": "http://186.0.233.76:1935/Garage/smil:garage.smil/master.m3u8"
-    },
-    {
         "name": "哥斯达黎加 Extrema TV",
         "url": "http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8"
     },
@@ -694,10 +590,6 @@ export default [
     {
         "name": "马其顿 Sky Folk TV",
         "url": "http://skyfolk.mk/live.m3u8"
-    },
-    {
-        "name": "乌克兰100% News",
-        "url": "http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8"
     },
     {
         "name": "捷克Retro (Opt-1)",
@@ -752,22 +644,6 @@ export default [
         "url": "http://africatv.live.net.sa:1935/live/africatv/playlist.m3u8"
     },
     {
-        "name": "耀才财经",
-        "url": "http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8"
-    },
-    {
-        "name": "澳门有线 CH1",
-        "url": "http://202.175.127.77/live/show/ch1/index.m3u8"
-    },
-    {
-        "name": "澳门有线互动新闻",
-        "url": "http://202.175.127.77/live/show/ch2/index.m3u8"
-    },
-    {
-        "name": "澳门有线 CH3",
-        "url": "http://202.175.127.77/live/show/ch3/index.m3u8"
-    },
-    {
         "name": "唯心电视",
         "url": "http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8"
     },
@@ -782,78 +658,6 @@ export default [
     {
         "name": "KBS 2",
         "url": "http://msl.tvbayoplus.com:9083/live/lmgr218-live1/GJ/qP/GJqPMui6DQrYctmZxQDeig==/live.m3u8"
-    },
-    {
-        "name": "Catch On 1",
-        "url": "http://23.237.112.138:9083/live/lmgr218-live1/Wj/Nz/WjNzluqgVARhAtul5gUKtg==/live.m3u8"
-    },
-    {
-        "name": "MBN",
-        "url": "http://23.237.112.138:9083/live/lmgr218-live1/j7/qy/j7qybKo1-oIO_R2EKcmcIA==/live.m3u8"
-    },
-    {
-        "name": "MNet",
-        "url": "http://23.237.112.138:9083/live/lmgr218-live1/DD/kh/DDkhewBlWWfGWPVkTkDWNA==/live.m3u8"
-    },
-    {
-        "name": "OCN",
-        "url": "http://23.237.112.138:9083/live/lmgr218-live1/GR/13/GR13XDGjlUsD8nZQasCIhw==/live.m3u8"
-    },
-    {
-        "name": "NHK総合",
-        "url": "http://203.162.235.41:16903"
-    },
-    {
-        "name": "NHK Eテレ",
-        "url": "http://203.162.235.41:16901"
-    },
-    {
-        "name": "NHK BSプレミアム",
-        "url": "http://203.162.235.41:16910"
-    },
-    {
-        "name": "TBSテレビ",
-        "url": "http://203.162.235.41:16907"
-    },
-    {
-        "name": "BS TBS",
-        "url": "http://203.162.235.41:16913"
-    },
-    {
-        "name": "テレビ朝日",
-        "url": "http://203.162.235.41:16906"
-    },
-    {
-        "name": "BS 朝日",
-        "url": "http://203.162.235.41:16914"
-    },
-    {
-        "name": "フジテレビ",
-        "url": "http://203.162.235.41:16904"
-    },
-    {
-        "name": "BSフジ",
-        "url": "http://203.162.235.41:16911"
-    },
-    {
-        "name": "テレビ東京",
-        "url": "http://203.162.235.41:16908"
-    },
-    {
-        "name": "BS 東京",
-        "url": "http://203.162.235.41:16915"
-    },
-    {
-        "name": "BS 日テレ",
-        "url": "http://203.162.235.41:16912"
-    },
-    {
-        "name": "日テレ",
-        "url": "http://203.162.235.41:16905"
-    },
-    {
-        "name": "WOWOW シネマ",
-        "url": "http://203.162.235.41:16916"
     },
     {
         "name": "韩国Arirang (Opt-1)",
@@ -896,10 +700,6 @@ export default [
         "url": "http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8"
     },
     {
-        "name": "德国MDF.1",
-        "url": "http://62.113.210.250/medienasa-live/mdf1_high/agustiny.m3u8"
-    },
-    {
         "name": "德国Offener Kanal Magdeburg",
         "url": "http://iptvcodes.blogspot.com@62.113.210.250/medienasa-live/ok-magdeburg_high/hasbahca.m3u8?bitrate=800"
     },
@@ -940,10 +740,6 @@ export default [
         "url": "http://streaming.astrakhan.ru/astrakhan24/index.m3u8"
     },
     {
-        "name": "俄罗斯 Fashion",
-        "url": "http://95.67.47.115/hls/hdfashion_ua_hi/index.m3u8"
-    },
-    {
         "name": "俄罗斯Krasnaja Linija",
         "url": "http://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/playlist.m3u8"
     },
@@ -954,10 +750,6 @@ export default [
     {
         "name": "俄罗斯Muz Sojuz",
         "url": "http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8"
-    },
-    {
-        "name": "俄罗斯RBC (Opt-1)",
-        "url": "http://92.50.128.180/utv/1358/index.m3u8"
     },
     {
         "name": "俄罗斯Shanson TV (Opt-1)",
@@ -1008,24 +800,12 @@ export default [
         "url": "http://livees.cgtn.com/1000e/prog_index.m3u8"
     },
     {
-        "name": "拉丁美洲La Mega Mundial",
-        "url": "http://68.235.35.243:1935/lamegamundial/lamegamundial2/playlist.m3u8"
-    },
-    {
         "name": "墨西哥Capital 21 Mexico City",
         "url": "http://wowzaprod158-i.akamaihd.net/hls/live/595142/a9251b55/playlist.m3u8?set-akamai-hls-revision=5&set-cc-attribute=cc"
     },
     {
-        "name": "阿根廷Garage TV",
-        "url": "http://186.0.233.76:1935/Garage/smil:garage.smil/master.m3u8"
-    },
-    {
         "name": "马其顿 Sky Folk TV",
         "url": "http://skyfolk.mk/live.m3u8"
-    },
-    {
-        "name": "乌克兰100% News",
-        "url": "http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8"
     },
     {
         "name": "乌克兰Lale",
@@ -1072,10 +852,6 @@ export default [
         "url": "http://www.elahmad.com/tv/m3u8/alkass.m3u8?id=alkass4"
     },
     {
-        "name": "耀才财经台",
-        "url": "http://202.69.67.66:443/webcast/bshdlive-mobile/playlist.m3u8"
-    },
-    {
         "name": "美国新闻CBS News 2",
         "url": "https://www.cbsnews.com/common/video/dai_prod.m3u8"
     },
@@ -1084,40 +860,12 @@ export default [
         "url": "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
     },
     {
-        "name": "亳州新闻频道",
-        "url": "http://220.180.110.101:8083/videos/live/33/59/NC7XQdEveyncq/NC7XQdEveyncq.M3U8"
-    },
-    {
-        "name": "亳州农村频道",
-        "url": "http://220.180.110.101:8083/videos/live/39/13/o4ncrHkSp7q09/o4ncrHkSp7q09.M3U8"
-    },
-    {
-        "name": "东至新闻综合",
-        "url": "http://223.247.33.124:1935/live/zonghe/playlist.m3u8"
-    },
-    {
-        "name": "东至影视频道",
-        "url": "http://223.247.33.124:1935/live/yingshi/playlist.m3u8"
-    },
-    {
-        "name": "东至文化资讯",
-        "url": "http://223.247.33.124:1935/live/wenhua/playlist.m3u8"
-    },
-    {
-        "name": "涡阳新闻综合",
-        "url": "http://220.180.110.101:8083/videos/live/36/57/hwEHU4UVQ1Iv5/hwEHU4UVQ1Iv5.M3U8"
-    },
-    {
         "name": "万州三峡移民",
         "url": "http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8"
     },
     {
         "name": "万州科教频道",
         "url": "http://wanzhoulive.cbg.cn:8017/Cz7WPb8/800/live.m3u8"
-    },
-    {
-        "name": "江津文化旅游",
-        "url": "http://222.179.155.21:1935/ch2.m3u8"
     },
     {
         "name": "彭水新闻综合",
@@ -1150,10 +898,6 @@ export default [
     {
         "name": "河源公共",
         "url": "http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8"
-    },
-    {
-        "name": "增城综合",
-        "url": "http://202.168.164.38:8083/videos/live/19/27/QEQXMtU5AUpwo/QEQXMtU5AUpwo.M3U8"
     },
     {
         "name": "铜仁新闻综合",
@@ -1206,18 +950,6 @@ export default [
     {
         "name": "吴江新闻综合",
         "url": "http://30515.hlsplay.aodianyun.com/lms_30515/tv_channel_239.m3u8"
-    },
-    {
-        "name": "抚州综合频道",
-        "url": "http://111.75.179.195:30767/video/live_vide.m3u8"
-    },
-    {
-        "name": "抚州公共频道",
-        "url": "http://111.75.179.195:30767/video/live_vide2.m3u8"
-    },
-    {
-        "name": "吉州新闻综合",
-        "url": "http://218.204.153.158/10.m3u8"
     },
     {
         "name": "袁州综合频道",
@@ -1332,32 +1064,12 @@ export default [
         "url": "http://stream.bzcm.net/2/sd/live.m3u8"
     },
     {
-        "name": "新泰综合频道",
-        "url": "http://111.17.214.4:1935/live/xtzh/playlist.m3u8"
-    },
-    {
-        "name": "新泰综合频道",
-        "url": "http://live.xtgdw.cn:1935/live/xtzh/playlist.m3u8"
-    },
-    {
-        "name": "新泰乡村党建",
-        "url": "http://111.17.214.4:1935/live/xtxc/playlist.m3u8"
-    },
-    {
         "name": "新泰乡村党建",
         "url": "http://live.xtgdw.cn:1935/live/xtxc/playlist.m3u8"
     },
     {
         "name": "新泰生活频道",
-        "url": "http://111.17.214.4:1935/live/xtsh/playlist.m3u8"
-    },
-    {
-        "name": "新泰生活频道",
         "url": "http://live.xtgdw.cn:1935/live/xtsh/playlist.m3u8"
-    },
-    {
-        "name": "新泰影视频道",
-        "url": "http://111.17.214.4:1935/live/xtys/playlist.m3u8"
     },
     {
         "name": "新泰影视频道",
@@ -1440,22 +1152,6 @@ export default [
         "url": "http://palive.patv123.com:8091/live/xwpd_800K.m3u8"
     },
     {
-        "name": "大竹新闻综合",
-        "url": "http://175.153.153.53:8083/videos/live/50/0/fvfm8SqxEkQGt/fvfm8SqxEkQGt.M3U8"
-    },
-    {
-        "name": "大竹阳光政务",
-        "url": "http://175.153.153.53:8083/videos/live/17/51/958cxpfHCjqwj/958cxpfHCjqwj.M3U8"
-    },
-    {
-        "name": "滨海综艺",
-        "url": "http://60.30.52.41/live/bhtv2/playlist.m3u8"
-    },
-    {
-        "name": "西青新闻综合",
-        "url": "http://221.238.209.44:81/hls/live1.m3u8"
-    },
-    {
         "name": "西藏藏语",
         "url": "http://media.vtibet.com/masvod/HLSLive/7/zangyuTV_q1.m3u8"
     },
@@ -1524,34 +1220,6 @@ export default [
         "url": "http://haiyan.liveyun.hoge.cn/xwpd/sd/live.m3u8"
     },
     {
-        "name": "亳州新闻频道",
-        "url": "http://220.180.110.101:8083/videos/live/33/59/NC7XQdEveyncq/NC7XQdEveyncq.M3U8"
-    },
-    {
-        "name": "亳州农村频道",
-        "url": "http://220.180.110.101:8083/videos/live/39/13/o4ncrHkSp7q09/o4ncrHkSp7q09.M3U8"
-    },
-    {
-        "name": "长丰新闻综合",
-        "url": "http://218.23.114.19:1935/live/xinwen/playlist.m3u8"
-    },
-    {
-        "name": "东至新闻综合",
-        "url": "http://223.247.33.124:1935/live/zonghe/playlist.m3u8"
-    },
-    {
-        "name": "东至影视频道",
-        "url": "http://223.247.33.124:1935/live/yingshi/playlist.m3u8"
-    },
-    {
-        "name": "东至文化资讯",
-        "url": "http://223.247.33.124:1935/live/wenhua/playlist.m3u8"
-    },
-    {
-        "name": "涡阳新闻综合",
-        "url": "http://220.180.110.101:8083/videos/live/36/57/hwEHU4UVQ1Iv5/hwEHU4UVQ1Iv5.M3U8"
-    },
-    {
         "name": "重庆移动公交",
         "url": "http://qxlmlive.cbg.cn:1935/app_2/ls_57.stream/chunklist.m3u8"
     },
@@ -1560,32 +1228,16 @@ export default [
         "url": "http://wanzhoulive.cbg.cn:8017/iTXwrGs/800/live.m3u8"
     },
     {
-        "name": "万州综合频道",
-        "url": "http://123.146.162.24:8017/iTXwrGs/800/live.m3u8"
-    },
-    {
         "name": "万州三峡移民",
         "url": "http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8"
-    },
-    {
-        "name": "万州三峡移民",
-        "url": "http://123.146.162.24:8017/c2F0hmi/1000/live.m3u8"
     },
     {
         "name": "万州影视文艺",
         "url": "http://wanzhoulive.cbg.cn:8017/d4ceB1a/1000/live.m3u8"
     },
     {
-        "name": "万州影视文艺",
-        "url": "http://123.146.162.24:8017/d4ceB1a/1000/live.m3u8"
-    },
-    {
         "name": "万州科教频道",
         "url": "http://wanzhoulive.cbg.cn:8017/Cz7WPb8/800/live.m3u8"
-    },
-    {
-        "name": "万州科教频道",
-        "url": "http://123.146.162.24:8017/Cz7WPb8/800/live.m3u8"
     },
     {
         "name": "梁平综合频道",
@@ -1608,36 +1260,16 @@ export default [
         "url": "http://qxlmlive.cbg.cn:1935/app_2/_definst_/ls_25.stream/playlist.m3u8"
     },
     {
-        "name": "綦江综合频道",
-        "url": "http://113.207.29.195:1935/app_2/_definst_/ls_25.stream/playlist.m3u8"
-    },
-    {
-        "name": "南川新闻综合",
-        "url": "http://221.5.213.4:30000/1111.m3u8"
-    },
-    {
         "name": "江津新闻综合",
         "url": "http://jiangjinlive.cbg.cn:1935/ch1.m3u8"
-    },
-    {
-        "name": "江津新闻综合",
-        "url": "http://222.179.155.21:1935/ch1.m3u8"
     },
     {
         "name": "江津经济生活",
         "url": "http://jiangjinlive.cbg.cn:1935/ch0.m3u8"
     },
     {
-        "name": "江津经济生活",
-        "url": "http://222.179.155.21:1935/ch0.m3u8"
-    },
-    {
         "name": "江津文化旅游",
         "url": "http://jiangjinlive.cbg.cn:1935/ch2.m3u8"
-    },
-    {
-        "name": "江津文化旅游",
-        "url": "http://222.179.155.21:1935/ch2.m3u8"
     },
     {
         "name": "彭水新闻综合",
@@ -1650,10 +1282,6 @@ export default [
     {
         "name": "万盛新闻综合",
         "url": "http://qxlmlive.cbg.cn:1935/app_2/ls_40.stream/playlist.m3u8"
-    },
-    {
-        "name": "荣昌综合频道",
-        "url": "http://183.64.181.25:40023/rongchang01.m3u8"
     },
     {
         "name": "渝北综合频道",
@@ -1716,14 +1344,6 @@ export default [
         "url": "http://stream4.liveyun.hoge.cn/ch02/sd/live.m3u8"
     },
     {
-        "name": "江门综合",
-        "url": "http://218.17.99.211:82/hls/d4encs75.m3u8"
-    },
-    {
-        "name": "江门综合",
-        "url": "http://218.17.99.211:5080/hls/ttsw6ccn.m3u8"
-    },
-    {
         "name": "河源综合",
         "url": "http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8"
     },
@@ -1746,10 +1366,6 @@ export default [
     {
         "name": "潮安影视",
         "url": "http://chaoan.chaoantv.com:8278/live/chaoanyingshi.m3u8"
-    },
-    {
-        "name": "增城综合",
-        "url": "http://202.168.164.38:8083/videos/live/19/27/QEQXMtU5AUpwo/QEQXMtU5AUpwo.M3U8"
     },
     {
         "name": "铜仁新闻综合",
@@ -1836,16 +1452,8 @@ export default [
         "url": "http://hbpx.chinashadt.com:2036/live/px1.stream/playlist.m3u8"
     },
     {
-        "name": "郑州教育频道",
-        "url": "http://218.28.177.199:1935/live/mp4:500k/playlist.m3u8"
-    },
-    {
         "name": "鹤壁综合频道",
         "url": "http://pili-live-hls.hebitv.com/hebi/hebi.m3u8"
-    },
-    {
-        "name": "中牟综合频道",
-        "url": "http://218.206.193.210:9850/playServer/acquirePlayService?type=live&resourceId=1000000000000001&protocol=hls0&drmType=none&deviceGroup=TV(STB)&op=sovp&playType=catchup&redirect=m3u8&nsukey=&kdsplayer=media"
     },
     {
         "name": "伊春综合频道",
@@ -1928,10 +1536,6 @@ export default [
         "url": "http://jsbh.chinashadt.com:2036/live/bh11.stream/playlist.m3u8"
     },
     {
-        "name": "抚州公共频道",
-        "url": "http://111.75.179.195:30767/video/live_vide2.m3u8"
-    },
-    {
         "name": "永新电视一套",
         "url": "http://jxyx.chinashadt.com:2036/live/1002.stream/playlist.m3u8"
     },
@@ -1989,15 +1593,7 @@ export default [
     },
     {
         "name": "新泰生活频道",
-        "url": "http://111.17.214.4:1935/live/xtsh/playlist.m3u8"
-    },
-    {
-        "name": "新泰生活频道",
         "url": "http://live.xtgdw.cn:1935/live/xtsh/playlist.m3u8"
-    },
-    {
-        "name": "新泰影视频道",
-        "url": "http://111.17.214.4:1935/live/xtys/playlist.m3u8"
     },
     {
         "name": "新泰影视频道",
@@ -2116,10 +1712,6 @@ export default [
         "url": "http://dslive.grtn.cn/zszh/sd/live.m3u8"
     },
     {
-        "name": "中牟综合频道",
-        "url": "http://218.206.193.210:9850/playServer/acquirePlayService?type=live&resourceId=1000000000000001&protocol=hls0&drmType=none&deviceGroup=TV(STB)&op=sovp&playType=catchup&redirect=m3u8&nsukey=&kdsplayer=media"
-    },
-    {
         "name": "吉林公共新闻",
         "url": "http://stream1.jlntv.cn/ggpd/sd/live.m3u8?_upt=b95938311531576098"
     },
@@ -2180,10 +1772,6 @@ export default [
         "url": "http://stream.zjjrtv.com/zjjtv1/hd/live.m3u8"
     },
     {
-        "name": "探索集锦(电)",
-        "url": "http://59.46.18.134:8114/Fsv_otype=1?FvSeid=5bf181c25f226bb2&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=31&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1"
-    },
-    {
         "name": "新婚夫妇的性生活",
         "url": "https://156zy.suyunbo.tv/2018/07/21/RiQKisSwjNi4r7Hb/playlist.m3u8"
     },
@@ -2194,10 +1782,6 @@ export default [
     {
         "name": "梅州综合",
         "url": "http://dslive.grtn.cn/mzzh/sd/live.m3u8"
-    },
-    {
-        "name": "梨园频道(电)",
-        "url": "http://59.46.18.134:8114/Fsv_otype=1?FvSeid=5bf181c25f226bb2&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=80&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1"
     },
     {
         "name": "江苏",
@@ -2230,10 +1814,6 @@ export default [
     {
         "name": "西安音乐综艺",
         "url": "http://stream2.xiancity.cn/xatv6/sd/live.m3u8"
-    },
-    {
-        "name": "辽宁体育(电)",
-        "url": "http://59.46.18.134:8114/Fsv_otype=1?FvSeid=5bf181c25f226bb2&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=28&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1"
     },
     {
         "name": "金鹰卡通",
@@ -2624,10 +2204,6 @@ export default [
         "url": "http://ls.qingting.fm/live/2810.m3u8"
     },
     {
-        "name": "咸宁综合频道",
-        "url": "http://192.240.127.34:1935/live/cs27.stream/playlist.m3u8?wowzasessionid=1300220279"
-    },
-    {
         "name": "利川新闻综合",
         "url": "http://uni6rtmp.tulix.tv:1935/vbstv/vbsabr.smil/chunklist_w439903609_b1228800.m3u8"
     },
@@ -2665,10 +2241,6 @@ export default [
     },
     {
         "name": "CGTN-国际电视台",
-        "url": "http://223.110.241.206:6610/gitv/live1/G_CCTV-NEWS/G_CCTV-NEWS/"
-    },
-    {
-        "name": "CGTN-国际电视台",
         "url": "https://live.cgtn.com/1000/prog_index.m3u8"
     },
     {
@@ -2678,10 +2250,6 @@ export default [
     {
         "name": "清远公共",
         "url": "http://stream1.0763f.com/qygg/sd/live.m3u8?_upt=dad6a4c91578916139"
-    },
-    {
-        "name": "咸宁综合频道",
-        "url": "http://192.240.127.34:1935/live/cs27.stream/playlist.m3u8?wowzasessionid=1300220279"
     },
     {
         "name": "浙江钱江",
@@ -3672,10 +3240,6 @@ export default [
         "url": "http://ls.qingting.fm/live/4937.m3u8"
     },
     {
-        "name": "铜梁电台龙乡之声 FM96.6",
-        "url": "http://222.180.119.78:10346/a1.m3u8"
-    },
-    {
         "name": "长春生活故事广播 FM90.0",
         "url": "http://ls.qingting.fm/live/5014.m3u8"
     },
@@ -3796,10 +3360,6 @@ export default [
         "url": "http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228972/01.m3u8?fmt=ts2hls"
     },
     {
-        "name": "求索科学",
-        "url": "http://112.17.40.200/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228975/01.m3u8?fmt=ts2hls"
-    },
-    {
         "name": "求索动物",
         "url": "http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228980/01.m3u8?fmt=ts2hls"
     },
@@ -3818,10 +3378,6 @@ export default [
     {
         "name": "华数_游戏5",
         "url": "http://hls-ott-zhibo.wasu.tv/live/273/index.m3u8"
-    },
-    {
-        "name": "求索科学",
-        "url": "http://112.17.40.200/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228975/01.m3u8?fmt=ts2hls"
     },
     {
         "name": "中国气象",
@@ -3846,10 +3402,6 @@ export default [
     {
         "name": "Astro Awani (1080p)",
         "url": "https://awanitv.akamaized.net/hls/live/2017836/LiveTV1/index.m3u8"
-    },
-    {
-        "name": "Maah TV [Not 24/7]",
-        "url": "http://51.210.199.33/hls/stream.m3u8"
     },
     {
         "name": "Super Radyo DZBB [Not 24/7]",
@@ -3904,24 +3456,8 @@ export default [
         "url": "http://palestiniantv.origin.technostreaming.net:8081/palestiniantv_source/live/playlist.m3u8"
     },
     {
-        "name": "[XK]PeaceTVAlbanian(PeaceTVShqip)[640*360][640*360",
-        "url": "http://82.114.67.178:8081/hls/PeaceTV.m3u8"
-    },
-    {
-        "name": "[XK]RTK1(720p)",
-        "url": "http://84.22.56.10:1935/rtk1stream/rtk1.stream/playlist.m3u8"
-    },
-    {
-        "name": "[XK]RTK4(720p)",
-        "url": "http://84.22.56.10:1935/rtk4stream/rtk4.stream/playlist.m3u8"
-    },
-    {
         "name": "[丹麦]KanalHovedstaden",
         "url": "https://59b954022ec35.streamlock.net:443/liveTV2/_definst_/smil:liveTVstream2.transcoder.smil/playlist.m3u8"
-    },
-    {
-        "name": "[乌克兰]4канал",
-        "url": "http://95.67.106.10/hls/nta_ua_hi/index.m3u8"
     },
     {
         "name": "[乌克兰]7канал",
@@ -3936,36 +3472,12 @@ export default [
         "url": "https://cdn10.live-tv.od.ua:8083/7tvod/7tvod-abr/7tvod/7tvod/chunks.m3u8"
     },
     {
-        "name": "[乌克兰]Fashion",
-        "url": "http://95.67.47.115/hls/hdfashion_ua_hi/index.m3u8?_=1518069241"
-    },
-    {
-        "name": "[乌克兰]Fashion&LifestyleTV",
-        "url": "http://95.67.47.114/hls/hdfashion_ua_mid/index.m3u8"
-    },
-    {
         "name": "[乌克兰]TravelGuideTV",
         "url": "http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8"
     },
     {
         "name": "[乌克兰]TravelGuideTV(720p)",
         "url": "http://cdn10.live-tv.od.ua:8081/leonovtv/1080i/playlist.m3u8"
-    },
-    {
-        "name": "[乌克兰]UATV",
-        "url": "http://95.67.106.242:80/hls/ua-tv_ua_mid/index.m3u8"
-    },
-    {
-        "name": "[乌克兰]ДонбасOnline(1080p)",
-        "url": "http://176.110.1.30:1935/live/donbasonline/playlist.m3u8"
-    },
-    {
-        "name": "[乌克兰]ОбщественноеНезависимоеТелевидение",
-        "url": "http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8"
-    },
-    {
-        "name": "[乌克兰]ПервыйДеловой[1309*720][1309*720]",
-        "url": "http://95.67.127.156/hls/pershij-dlovij_ua_hi/index.m3u8"
     },
     {
         "name": "[乌克兰]ПершийДіловий[1309*720][1309*720]",
@@ -3976,28 +3488,12 @@ export default [
         "url": "http://streaming.toutech.net:1935/live/mp4:jawharafm.sdp/playlist.m3u8"
     },
     {
-        "name": "[伊拉克]Al-RafidainTV[1820*1024][1820*1024]",
-        "url": "http://149.202.79.190:8081/arrafidaintv/publish/chunks.m3u8"
-    },
-    {
-        "name": "[伊拉克]ArRafidainTV[1820*1024][1820*1024]",
-        "url": "http://149.202.79.190:8081/arrafidaintv/publish/playlist.m3u8?v="
-    },
-    {
-        "name": "[伊拉克]Dijlah",
-        "url": "http://91.134.145.75:10001/Dijlah/index.m3u8"
-    },
-    {
         "name": "[伊朗]PayvandTV(720p)[1280*720]",
         "url": "https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8"
     },
     {
         "name": "[伊朗]PBCTapeshTV[640*360][640*360]",
         "url": "http://iptv.tapesh.tv/tapesh/playlist1/index.m3u8"
-    },
-    {
-        "name": "[俄罗斯联邦]8каналКрым",
-        "url": "http://176.99.110.252/stream8/playlist.m3u8"
     },
     {
         "name": "[俄罗斯联邦]5656TB1[768*432][768*432]",
@@ -4028,10 +3524,6 @@ export default [
         "url": "http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v5a1/index.m3u8"
     },
     {
-        "name": "[俄罗斯联邦]Вера24(720p)",
-        "url": "http://62.32.67.187:1935/WEB_Vera24/Vera24.stream/playlist.m3u8"
-    },
-    {
         "name": "[俄罗斯联邦]Крым24[960*540][960*540]",
         "url": "http://mr2live.1tvcrimea.ru:8080/24tvcrimea.m3u8"
     },
@@ -4056,18 +3548,6 @@ export default [
         "url": "http://ott.inmart.tv:8081/17/index.m3u8"
     },
     {
-        "name": "[俄罗斯联邦]ОТВ(Одинцово)",
-        "url": "http://185.18.4.16/live/3m/playlist.m3u8"
-    },
-    {
-        "name": "[俄罗斯联邦]ПервыйТульский",
-        "url": "http://5.164.24.83/tula/1tv_low/index.m3u8"
-    },
-    {
-        "name": "[俄罗斯联邦]ТБН(720p)",
-        "url": "http://62.32.67.187:1935/WEB_TBN/TBN.stream/playlist.m3u8"
-    },
-    {
         "name": "[俄罗斯联邦]ТВК24[640*360][640*360]",
         "url": "http://air.tvk6.ru/tvk24/playlist.m3u8"
     },
@@ -4080,20 +3560,8 @@ export default [
         "url": "http://streaming.astrakhan.ru/telplushd/playlist.m3u8"
     },
     {
-        "name": "[俄罗斯联邦]Тольятти24",
-        "url": "http://91.234.108.26/hls-live/livepkgr/_definst_/liveevent1/vazlivestream1.m3u8"
-    },
-    {
         "name": "[俄罗斯联邦]ТриАнгела[1280*722][1280*722]",
         "url": "https://hls.tv.3angels.ru/stream/HQ.m3u8"
-    },
-    {
-        "name": "[列支敦士登]KommuTV",
-        "url": "http://31.10.19.12:8066/live/999/0.m3u8"
-    },
-    {
-        "name": "[刚果民主共和国]BossBrothersTV(720p)",
-        "url": "http://51.254.199.122:8080/bossbrothersTV/index.m3u8"
     },
     {
         "name": "[加拿大]CPAC(720p)",
@@ -4132,112 +3600,8 @@ export default [
         "url": "http://tv.hegyvidek.hu/stream_mpeg.flv"
     },
     {
-        "name": "[卢旺达]RTVRwanda[854*480][854*480]",
-        "url": "http://197.243.19.131:1935/rtv/rtv/chunklist_w2093872577.m3u8"
-    },
-    {
-        "name": "[印度]FASTWAYNEWS(720p)",
-        "url": "http://163.47.214.155:1935/fwnews/live/playlist.m3u8"
-    },
-    {
-        "name": "[印度]LifeTV[820*480][820*480]",
-        "url": "http://59c3ec70cfde0.streamlock.net/channel_6/channel6/chunklist.m3u8"
-    },
-    {
         "name": "[印度]NDTVProfit[640*480][640*480]",
         "url": "https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680-b/ndtvprofit/master.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRIAceh[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRIACEH)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRIBengkulu[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRIBENGKULU)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRIGorontalo[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRIGORONTALO)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRIJambi[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRIJAMBI)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRIJawaBarat[240*180][240*180]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRIJABARBANDUNG)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRIKalimantanBarat[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRIKALBAR)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRIKalimantanSelatan[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRIKALSELBANJARMSN)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRIKalimantanTimur[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRIKALTIMSAMARINDA)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRIKanal3[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRI3)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRIMaluku[240*180][240*180]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRIMALUKUAMBON)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRINasional",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRINASIONAL)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRINusaTenggaraBarat[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRINTBMATARAM)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRINusaTenggaraTimur[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRINTTKUPANG)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRIPapua[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRIPAPUA)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRISport[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRI4)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRISulawesiUtara[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRISULUTMANADO)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRISumateraBarat[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRISUMBARPADANG)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRISumateraSelatan[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRISUMSEL)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRISumateraUtara[720*540][720*540]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRISUMUTMEDAN)/index.m3u8"
-    },
-    {
-        "name": "[印度尼西亚]TVRIYogyakarta[853*480][853*480]",
-        "url": "http://118.97.50.107/Content/HLS/Live/Channel(TVRIYOGYAKARTA)/index.m3u8"
-    },
-    {
-        "name": "[厄瓜多尔]HechosEcuador",
-        "url": "http://37.187.7.106/hechostv/live.m3u8"
-    },
-    {
-        "name": "[吉尔吉斯斯坦]TV1KG",
-        "url": "http://212.2.225.30:1935/live/site.stream/playlist.m3u8"
-    },
-    {
-        "name": "[哥伦比亚]CanalDos(CiudaddeYopal)",
-        "url": "http://131.221.42.25:1935/streaming/canal2/playlist.m3u8"
     },
     {
         "name": "[哥伦比亚]MelodyChannelColombia(720p)",
@@ -4250,10 +3614,6 @@ export default [
     {
         "name": "[哥斯达黎加]Canal88Stereo",
         "url": "http://k3.usastreams.com:1935/CableLatino/88stereo/chunklist_w1223558379.m3u8"
-    },
-    {
-        "name": "[土库曼斯坦]Asgabat[725*406][725*406]",
-        "url": "http://217.174.225.146/legacyhls/ch006_720/index.m3u8"
     },
     {
         "name": "[土耳其]ÇiftçiTV",
@@ -4296,36 +3656,12 @@ export default [
         "url": "http://media6.smc-host.com:1935/omgchannel.net/omgtv/playlist.m3u8"
     },
     {
-        "name": "[塞尔维亚]TVBelleAmie(720p)[Not24/7]",
-        "url": "http://92.60.238.10:1935/live/belleamie/chunklist_w1811501290.m3u8"
-    },
-    {
-        "name": "[墨西哥]ConectaTV",
-        "url": "http://204.12.211.210:1935/conectatv/conectatv/playlist.m3u8"
-    },
-    {
-        "name": "[多明尼加共和国]Microvision10(720p)",
-        "url": "http://190.103.183.24:1935/live/MicroHD/playlist.m3u8"
-    },
-    {
         "name": "[多明尼加共和国]TeleBendicion(720p)",
         "url": "http://ss8.domint.net:2124/tbt_str/telebendicion/playlist.m3u8"
     },
     {
         "name": "[多明尼加共和国]TelefuturoCanal23(720p)[Not24/7]",
         "url": "http://ss8.domint.net:2118/tf_str/futu/master.m3u8"
-    },
-    {
-        "name": "[多明尼加共和国]Vallevision(720p)",
-        "url": "http://190.103.183.24:1935/Vallevision/ValleHD/playlist.m3u8"
-    },
-    {
-        "name": "[孟加拉国]EkuseyTV[600*480][600*480]",
-        "url": "http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8"
-    },
-    {
-        "name": "[巴拉圭]TreceParaguay[426*266][426*266]",
-        "url": "http://174.138.118.252/live/trece.m3u8"
     },
     {
         "name": "[巴西]CBNSãoPaulo",
@@ -4348,24 +3684,8 @@ export default [
         "url": "http://c2.manasat.com:1935/tserkov-online/russo3/playlist.m3u8"
     },
     {
-        "name": "[巴西]TVManá1[Not24/7][568*320][568*320]",
-        "url": "http://195.22.11.11:1935/tvmana/tvmana1/playlist.m3u8"
-    },
-    {
-        "name": "[巴西]TVManá2(720p)[Not24/7]",
-        "url": "http://195.22.11.11:1935/tvmana/tvmana2/playlist.m3u8"
-    },
-    {
         "name": "[巴西]TVPampa-RedeTV!RS(720p)",
         "url": "https://59f1cbe63db89.streamlock.net:1443/tvpampa/tvpampa/playlist.m3u8"
-    },
-    {
-        "name": "[巴西]TVParanáTurismo[Not24/7]",
-        "url": "http://200.189.113.201/hls/tve.m3u8"
-    },
-    {
-        "name": "[希腊]ARTTV(720p)",
-        "url": "http://176.9.123.140:1935/arttv/arttv/playlist.m3u8"
     },
     {
         "name": "[希腊]CANNALITV(720p)",
@@ -4376,24 +3696,12 @@ export default [
         "url": "https://e-e.cyou:8222/channel9/channel9/playlist.m3u8"
     },
     {
-        "name": "[希腊]Channel9(720p)",
-        "url": "http://176.9.123.140:1935/channel9/channel9/playlist.m3u8"
-    },
-    {
         "name": "[希腊]ERTWorld[720*528]",
         "url": "http://wpso.com:1936/hls/wzra.m3u8"
     },
     {
-        "name": "[希腊]HLEKTRATV",
-        "url": "http://167.86.89.20:5080/LiveApp/streams/064918158666216168224216.m3u8"
-    },
-    {
         "name": "[希腊]KIDSTV[720*480][720*480]",
         "url": "http://wpso.com:1936/hls/kidshd.m3u8"
-    },
-    {
-        "name": "[希腊]MESOGEIOSTV(450p)[800*450][800*450]",
-        "url": "http://176.9.123.140:1935/mesogeiostv/stream/master.m3u8"
     },
     {
         "name": "[希腊]NEATV(1080p)[640*360][640*360]",
@@ -4412,28 +3720,12 @@ export default [
         "url": "https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8"
     },
     {
-        "name": "[希腊]NSTV(720p)[Not24/7][852*480][852*480]",
-        "url": "http://176.9.123.140:1935/nstv1/stream/playlist.m3u8"
-    },
-    {
-        "name": "[希腊]ZerounoTV(720p)",
-        "url": "http://5db313b643fd8.streamlock.net:1935/ZerounoTV/ZerounoTV/playlist.m3u8"
-    },
-    {
         "name": "[希腊]ΚρήτηTV(720p)",
         "url": "http://live.cretetv.gr:1935/cretetv/myStream/f1tv.m3u8"
     },
     {
-        "name": "[库拉索岛]NosPais",
-        "url": "http://558bd16067b67.streamlock.net/nos_pais_24_7/smil:livestream.stream.smil/playlist.m3u8"
-    },
-    {
         "name": "[库拉索岛]NosPaïs[640*360][640*360]",
         "url": "http://highvolume04.streampartner.nl:1935/nos_pais_24_7/smil:livestream.stream.smil/playlist.m3u8"
-    },
-    {
-        "name": "[德国]ARTITV",
-        "url": "http://176.10.117.18:8000/play/a002/index.m3u8"
     },
     {
         "name": "[德国]BLKRegionalTV(1080p)",
@@ -4448,10 +3740,6 @@ export default [
         "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high/playlist.m3u8?&ref=medienportal-sachsen-"
     },
     {
-        "name": "[德国]Campus-TV-Magdeburg",
-        "url": "http://62.113.210.250/medienasa-live/ok-wernigerode_high/chunklist_w937425968.m3u8"
-    },
-    {
         "name": "[德国]CampusTVMagdeburg(1080p)",
         "url": "http://iptvcodes.blogspot.com@62.113.210.250/medienasa-live/ok-wernigerode_high/hasbahca.m3u8"
     },
@@ -4460,16 +3748,8 @@ export default [
         "url": "http://iptvcodes.blogspot.com@62.113.210.250/medienasa-live/ok-wernigerode_high/hasbahca.m3u8?bitrate=800"
     },
     {
-        "name": "[德国]CIRATV",
-        "url": "http://176.10.117.18:8000/play/a00f/index.m3u8"
-    },
-    {
         "name": "[德国]Hauptstadt.TV(Potsdam)",
         "url": "https://live2.telvi.de/hls/hauptstadttv_hd720.m3u8"
-    },
-    {
-        "name": "[德国]HealthTV(720p)",
-        "url": "http://62.67.13.53:1935/HealthTV/ghtv_live_master.stream/playlist.m3u8"
     },
     {
         "name": "[德国]KulturMD(1080p)",
@@ -4478,10 +3758,6 @@ export default [
     {
         "name": "[德国]MDF.1(1080p)",
         "url": "http://58bd5b7a98e04.streamlock.net/medienasa-live/mdf1_high/playlist.m3u8"
-    },
-    {
-        "name": "[德国]MDF.1(1080p)",
-        "url": "http://62.113.210.250/medienasa-live/mdf1_high/playlist.m3u8"
     },
     {
         "name": "[德国]MDF.1(1080p)",
@@ -4528,28 +3804,12 @@ export default [
         "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:punktum_high/playlist.m3u8"
     },
     {
-        "name": "[德国]PunktumS�dharz(1080p)",
-        "url": "http://62.113.210.250/medienasa-live/punktum_high/master.m3u8"
-    },
-    {
         "name": "[德国]Ran1(1080p)",
         "url": "http://58bd5b7a98e04.streamlock.net/medienasa-live/ran1_high/playlist.m3u8"
     },
     {
         "name": "[德国]RAN1(1080p)",
         "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ran1_high/playlist.m3u8"
-    },
-    {
-        "name": "[德国]RAN1(1080p)",
-        "url": "http://62.113.210.250/medienasa-live/mp4:ran1_high/master.m3u8"
-    },
-    {
-        "name": "[德国]RAN1Regionalfernsehen(1080p)",
-        "url": "http://62.113.210.250:1935/medienasa-live/ran1_high/playlist.m3u8"
-    },
-    {
-        "name": "[德国]RAN1Regionalfernsehen(1080p)",
-        "url": "http://62.113.210.250:1935/medienasa-live/mp4:ran1_high/playlist.m3u8"
     },
     {
         "name": "[德国]RBW(1080p)",
@@ -4562,10 +3822,6 @@ export default [
     {
         "name": "[德国]RFHHarz(1080p)",
         "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:RFH_high/playlist.m3u8?&ref=medienportal-sachsen-anhalt.de&seid=528347"
-    },
-    {
-        "name": "[德国]RFHHarz(1080p)",
-        "url": "http://62.113.210.250/medienasa-live/RFH_high/master.m3u8"
     },
     {
         "name": "[德国]RFHTV(1080p)",
@@ -4609,10 +3865,6 @@ export default [
     },
     {
         "name": "[德国]TVHalle(720p)",
-        "url": "http://62.113.210.250/medienasa-live/tvhalle_high/playlist.m3u8"
-    },
-    {
-        "name": "[德国]TVHalle(720p)",
         "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:tvhalle_high/playlist.m3u8"
     },
     {
@@ -4640,20 +3892,8 @@ export default [
         "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8"
     },
     {
-        "name": "[挪威]STORTINGET",
-        "url": "http://194.132.85.39/19333-live0/_definst_/push-stortinget_1/chunklist_w1136072204.m3u8"
-    },
-    {
-        "name": "[捷克共和国]ČT1",
-        "url": "http://213.151.233.20:8000/dna-5100-tv-pc/hls/4002v105.m3u8"
-    },
-    {
         "name": "[摩尔多瓦共和国]NorocTV",
         "url": "http://live.noroc.tv/hls/noroctv_chisinau.m3u8"
-    },
-    {
-        "name": "[摩尔多瓦共和国]TNT_EXCLUSIV",
-        "url": "http://89.28.25.122/hls/tnt_md.m3u8"
     },
     {
         "name": "[斯洛伐克]TVRužinov(1080p)",
@@ -4666,10 +3906,6 @@ export default [
     {
         "name": "[智利]PintanaTV",
         "url": "http://cdn.vms.grupoz.cl/lapintanatv/content/5a7c8e25e19d3e641aca9fb2/hls/playlist.m3u8"
-    },
-    {
-        "name": "[智利]Portalfoxmix(720p)",
-        "url": "http://149.56.17.92:1935/portalfoxmix/portalfoxmix/playlist.m3u8"
     },
     {
         "name": "[智利]Portalfoxmix(720p)",
@@ -4748,28 +3984,8 @@ export default [
         "url": "https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_ljzy3evp/format/applehttp/protocol/https/a.m3u8"
     },
     {
-        "name": "[白俄罗斯]8канал(Витебск)",
-        "url": "http://95.46.208.8:24433/art"
-    },
-    {
         "name": "[白俄罗斯]FirstMusicChannelBielorrusia",
         "url": "http://hz1.teleport.cc/HLS/SD.m3u8"
-    },
-    {
-        "name": "[白俄罗斯]Беларусь4",
-        "url": "http://95.46.208.8:26258/belarus4"
-    },
-    {
-        "name": "[白俄罗斯]НашеТВ(Витебск)",
-        "url": "http://95.46.208.8:26259/nashe"
-    },
-    {
-        "name": "[秘鲁]UCI(1080p)",
-        "url": "http://170.79.102.223/UCI/index.m3u8"
-    },
-    {
-        "name": "[突尼斯]SahelTV(720p)",
-        "url": "http://142.44.214.231:1935/saheltv/myStream/playlist.m3u8"
     },
     {
         "name": "[突尼斯]TunisieImmobilierTV",
@@ -4808,10 +4024,6 @@ export default [
         "url": "https://moiptvhls-i.akamaihd.net/hls/live/652316/secure/master.m3u8"
     },
     {
-        "name": "[美国]AlientoVision[640*360][640*360]",
-        "url": "http://209.133.209.195:1935/AlientoSD/smil:AlientoSD.smil/playlist.m3u8"
-    },
-    {
         "name": "[美国]BetterHealthTV[853*480][853*480]",
         "url": "http://uni5rtmp.tulix.tv/betterhealth/betterhealth/chunklist_w848830638.m3u8"
     },
@@ -4820,28 +4032,12 @@ export default [
         "url": "http://butv10-livestream.bu.edu/live/WIFI-2096k-1080p/WIFI-2096k-1080p.m3u8"
     },
     {
-        "name": "[美国]CCX1",
-        "url": "http://156.142.85.152/live/WIFI-2096k-1080p/WIFI-2096k-1080p.m3u8"
-    },
-    {
         "name": "[美国]CTN(WFGC)",
         "url": "http://hls1.livestreamingcdn.com:1935/livecdn631/myStream.sdp/playlist.m3u8"
     },
     {
-        "name": "[美国]FunRoads(720p)",
-        "url": "http://104.143.4.5:2080/funroads.m3u8"
-    },
-    {
-        "name": "[美国]IraneFarda",
-        "url": "http://51.210.199.53/hls/stream.m3u8"
-    },
-    {
         "name": "[美国]JBS[360*202][360*202]",
         "url": "http://uni8rtmp.tulix.tv:1935/shalomtv-pc/smil:shalomtv.smil/master.m3u8"
-    },
-    {
-        "name": "[美国]KBSV/AssyriaSat",
-        "url": "http://66.242.170.53/hls/live/temp/index.m3u8"
     },
     {
         "name": "[美国]KCRT-TV[480*360][480*360]",
@@ -4964,10 +4160,6 @@ export default [
         "url": "https://www.filmon.com/vr-streams/4136.high/playlist.m3u8"
     },
     {
-        "name": "[美国]WarnerTV",
-        "url": "http://203.154.243.89:11205/"
-    },
-    {
         "name": "[美国]WCAT3[480*360][480*360]",
         "url": "https://frontdoor.wcat-tv.org:8787/live/live.m3u8"
     },
@@ -4982,10 +4174,6 @@ export default [
     {
         "name": "[美国]WhitePlainsCommunityMedia[640*360][640*360]",
         "url": "http://stream.swagit.com/live-edge/whiteplainsny/smil:std-4x3-1-b/chunklist_w1456643228_b512000.m3u8"
-    },
-    {
-        "name": "[美国]WHPR(720p)",
-        "url": "http://162.244.81.156:1935/whprtv33roku/whprtv33roku/playlist.m3u8"
     },
     {
         "name": "[美国]WPPT39ExtraPhiladelphia[854*480][854*480]",
@@ -5048,14 +4236,6 @@ export default [
         "url": "http://livestreamcdn.net:1935/SobrenaturalTV/SobrenaturalTV/playlist.m3u8"
     },
     {
-        "name": "[葡萄牙]SobrenaturalTV(1080p)",
-        "url": "http://213.13.26.11:1935/live/sobrenaturaltv/livestream.m3u8"
-    },
-    {
-        "name": "[葡萄牙]TVFátima(1080p)",
-        "url": "http://213.13.26.11:1935/live/santuario.stream/livestream.m3u8"
-    },
-    {
         "name": "[西班牙]3/24",
         "url": "https://directes-tv-int.ccma.cat/int/ngrp:324_web/playlist.m3u8"
     },
@@ -5096,14 +4276,6 @@ export default [
         "url": "https://5940924978228.streamlock.net/Directo1/Directo1/master.m3u8"
     },
     {
-        "name": "[西班牙]TeleRibera",
-        "url": "http://37.187.7.106/teleribera/live.m3u8"
-    },
-    {
-        "name": "[西班牙]TuyaLaJandaTelevisión",
-        "url": "http://185.210.20.13:8080/0.m3u8"
-    },
-    {
         "name": "[西班牙]TV3CAT(1080p)",
         "url": "https://directes-tv-int.ccma.cat/int/ngrp:tvi_web/playlist_DVR.m3u8"
     },
@@ -5120,32 +4292,8 @@ export default [
         "url": "http://europa-crtvg.flumotion.com/crtvg/europa_med/chunks.m3u8"
     },
     {
-        "name": "[西班牙]TVVegaBaja",
-        "url": "http://185.29.68.24/tvb.m3u8"
-    },
-    {
-        "name": "[越南]VITV[320*180][320*180]",
-        "url": "http://210.86.230.202:8134/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8"
-    },
-    {
-        "name": "[阿塞拜疆]ARB24",
-        "url": "http://85.132.81.184:8080/arb24/live1/index.m3u8"
-    },
-    {
-        "name": "[阿塞拜疆]ATV4",
-        "url": "http://85.132.81.184:8080/atv-4/index.m3u8"
-    },
-    {
-        "name": "[阿塞拜疆]ELTV[768*432][768*432]",
-        "url": "http://85.132.53.162:1935/live/eltv/playlist.m3u8"
-    },
-    {
         "name": "[阿塞拜疆]STARTVSD",
         "url": "http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8"
-    },
-    {
-        "name": "[阿富汗]SolhTV",
-        "url": "http://51.210.199.42/hls/stream.m3u8"
     },
     {
         "name": "[阿曼]OmanAlthakafia",
@@ -5164,14 +4312,6 @@ export default [
         "url": "http://partne.cdn.mangomolo.com/omantv/smil:omantv.stream.smil/chunklist_b4500000_t64MTA4MHA=.m3u8"
     },
     {
-        "name": "[阿根廷]ArgentinísimaSatelital[1048*576][1048*576]",
-        "url": "http://186.0.233.76:1935/Argentinisima/smil:argentinisima.smil/playlist.m3u8"
-    },
-    {
-        "name": "1 Music TV",
-        "url": "http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8"
-    },
-    {
         "name": "1muz.com [1280*720]",
         "url": "http://hz1.teleport.cc/HLS/HD.m3u8"
     },
@@ -5184,20 +4324,12 @@ export default [
         "url": "https://moiptvhls-i.akamaihd.net/hls/live/652315/secure/master.m3u8"
     },
     {
-        "name": "4 Turk Music [Not 24/7]",
-        "url": "http://51.210.199.30/hls/stream.m3u8"
-    },
-    {
         "name": "7 канал (720p)",
         "url": "https://cdn10.live-tv.od.ua:8083/7tvod/7tvod/playlist.m3u8"
     },
     {
         "name": "7 канал (Одесса) (720p)",
         "url": "https://cdn10.live-tv.od.ua:8083/7tvod/7tvod-abr/playlist.m3u8"
-    },
-    {
-        "name": "7S Music",
-        "url": "http://103.199.161.254/Content/7smusic/Live/Channel(7smusic)/index.m3u8"
     },
     {
         "name": "9 ВОЛНА[1280*720]",
@@ -5716,10 +4848,6 @@ export default [
         "url": "https://5b464b69d264e.streamlock.net/Channels_live/ngrp:amordiscos_all/playlist.m3u8"
     },
     {
-        "name": "Amrita TV",
-        "url": "http://103.199.161.254/Content/amrita/Live/Channel(Amrita)/index.m3u8"
-    },
-    {
         "name": "AMX Noticias (720p) [Not 24/7]",
         "url": "https://5e50264bd6766.streamlock.net/mexiquense2/videomexiquense2/playlist.m3u8"
     },
@@ -5777,10 +4905,6 @@ export default [
     },
     {
         "name": "ANTV",
-        "url": "http://202.80.222.130/000001/2/ch14061215034900095272/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "ANTV",
         "url": "http://antvlive.ab5c6921.cdnviet.com/antv/chunklist.m3u8"
     },
     {
@@ -5826,10 +4950,6 @@ export default [
     {
         "name": "Ashrafi Channel [Not 24/7]",
         "url": "http://ashrafichannel.livebox.co.in/ashrafivhannelhls/live.m3u8"
-    },
-    {
-        "name": "Asianet News",
-        "url": "http://103.199.161.254/Content/asianetnews/Live/Channel(Asianetnews)/index.m3u8"
     },
     {
         "name": "Assam Talks",
@@ -5896,10 +5016,6 @@ export default [
         "url": "https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8"
     },
     {
-        "name": "Azad TV -2 (ATV) (720p)",
-        "url": "http://85.132.81.184:8080/atv-2/index.m3u8"
-    },
-    {
         "name": "Azerbaijan News TV (720p)",
         "url": "https://edge1.socialsmart.tv/aznews/smil/playlist.m3u8"
     },
@@ -5921,31 +5037,11 @@ export default [
     },
     {
         "name": "Bahrain Sport 1",
-        "url": "http://185.105.4.106:1935/live/Bahrain%20Sports/chunklist.m3u8?v=1558393494"
-    },
-    {
-        "name": "Bahrain Sport 1",
-        "url": "http://185.105.4.106:1935/live/Bahrain%20Sports/chunklist.m3u8?v=1548640033"
-    },
-    {
-        "name": "Bahrain Sport 1",
         "url": "https://5c7b683162943.streamlock.net/live/ngrp:Bahrain%20Sports_all/playlist.m3u8"
     },
     {
         "name": "Bahrain Sport 2",
         "url": "https://5c7b683162943.streamlock.net/live/ngrp:Bahrain%20Sports%202_all/playlist.m3u8"
-    },
-    {
-        "name": "Bahrain Sports 1 (720p)",
-        "url": "http://185.105.4.106:1935/live/Bahrain+Sports/playlist.m3u8"
-    },
-    {
-        "name": "Bahrain TV (720p)",
-        "url": "http://185.105.4.106:1935/live/Bahrain+TV/playlist.m3u8"
-    },
-    {
-        "name": "Bali TV",
-        "url": "http://202.80.222.171/000001/2/ch00000090990000001729/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "Bali TV _USEETV",
@@ -5962,10 +5058,6 @@ export default [
     {
         "name": "BBC Persian (720p)",
         "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd"
-    },
-    {
-        "name": "BBCWorldNews",
-        "url": "http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8"
     },
     {
         "name": "BBS Buddhist Broadcasting[1920*1080]",
@@ -6022,10 +5114,6 @@ export default [
     {
         "name": "BeritaSatu World (Opt-2)",
         "url": "http://edge.linknetott.swiftserve.com/live/BsNew/amlst:beritasatunewsbs/playlist.m3u8"
-    },
-    {
-        "name": "BeritaSatu World (Opt-3)",
-        "url": "http://202.80.222.130/000001/2/ch00000090990000001683/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "Beteve",
@@ -6124,10 +5212,6 @@ export default [
         "url": "https://57068da1deb21.streamlock.net/bwr/bwr/playlist.m3u8"
     },
     {
-        "name": "bTV News",
-        "url": "http://203.176.130.123:8989/live/bayontv1_480k.stream/playlist.m3u8"
-    },
-    {
         "name": "Bursa AS TV (720p)",
         "url": "https://waw2.artiyerelmedya.net/astv/bant1/playlist.m3u8"
     },
@@ -6168,16 +5252,8 @@ export default [
         "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=269"
     },
     {
-        "name": "Campus TV Magdeburg (1080p)",
-        "url": "http://62.113.210.250/medienasa-live/ok-wernigerode_high/hasbahca.m3u8"
-    },
-    {
         "name": "Can TV (720p)",
         "url": "http://canbroadcast.com:7000/canlican/tv.m3u8"
-    },
-    {
-        "name": "CAN TV (720p) [Not 24/7]",
-        "url": "http://176.10.117.18:8000/play/a004/index.m3u8"
     },
     {
         "name": "Canal 8 (720p)",
@@ -6190,10 +5266,6 @@ export default [
     {
         "name": "Canal 26",
         "url": "http://live-edge01.telecentro.net.ar:1935/live/26hd-720/playlist.m3u8"
-    },
-    {
-        "name": "Canal 26 (720p)",
-        "url": "http://200.115.193.177/live/26hd-720/playlist.m3u8"
     },
     {
         "name": "Canal 33 (1080p)",
@@ -6548,10 +5620,6 @@ export default [
         "url": "http://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8"
     },
     {
-        "name": "CharityTV (1080p) [Not 24/7]",
-        "url": "http://185.105.4.236:1935/live/ngrp:livestream_all/live.m3u8"
-    },
-    {
         "name": "Cheddar Big News ",
         "url": "https://live.chdrstatic.com/cbn/index.m3u8"
     },
@@ -6570,10 +5638,6 @@ export default [
     {
         "name": "Chicos IPe [Not 24/7]",
         "url": "http://cdnh4.iblups.com/hls/OVJNKV4pSr.m3u8"
-    },
-    {
-        "name": "CHINA DRAMA",
-        "url": "http://183.207.255.188/live/program/live/qcxj/1300000/mnf.m3u8"
     },
     {
         "name": "China tv1",
@@ -6622,10 +5686,6 @@ export default [
     {
         "name": "CITY TV[1024*576]",
         "url": "https://tv.city.bg/play/tshls/citytv/3.m3u8"
-    },
-    {
-        "name": "CJB청주방송(SBS 淸州)",
-        "url": "http://1.222.207.80:1935/live/cjbtv/playlist.m3u8"
     },
     {
         "name": "Clarity 4K",
@@ -6728,10 +5788,6 @@ export default [
         "url": "http://wma10.fluidstream.net/CompanyTV/_definst_/mp4:livestream_720p/playlist.m3u8"
     },
     {
-        "name": "Comunion TV (720p) [Not 24/7]",
-        "url": "http://50.30.37.36:1935/live/smil:MyStream.smil/playlist.m3u8"
-    },
-    {
         "name": "Cooking Panda (720p)",
         "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46"
     },
@@ -6780,10 +5836,6 @@ export default [
         "url": "https://rrsatrtmp.tulix.tv/ctntv/ctntvmulti.smil/playlist.m3u8"
     },
     {
-        "name": "CTV 9",
-        "url": "http://203.176.130.123:8989/live/ctv9_480k.stream/playlist.m3u8"
-    },
-    {
         "name": "CZworka[1920*1080]",
         "url": "https://stream14.polskieradio.pl/pr4_video/video_pr4.stream/playlist.m3u8"
     },
@@ -6794,10 +5846,6 @@ export default [
     {
         "name": "Da Nang TV 2",
         "url": "http://drtdnglive.e49a7c38.cdnviet.com/livestream/chunklist.m3u8"
-    },
-    {
-        "name": "DAAI TV (Opt-2)",
-        "url": "http://202.80.222.130/000001/2/ch00000090990000001706/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "Daai TV _USEETV",
@@ -6830,22 +5878,6 @@ export default [
     {
         "name": "DBM TV",
         "url": "http://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8"
-    },
-    {
-        "name": "DD Malayalam",
-        "url": "http://103.199.161.254/Content/ddmalayalam/Live/Channel(DDMalayalam)/index.m3u8"
-    },
-    {
-        "name": "DD National",
-        "url": "http://103.199.161.254/Content/ddnational/Live/Channel(DDNational)/index.m3u8"
-    },
-    {
-        "name": "DD Sports",
-        "url": "http://103.199.161.254/Content/ddsports/Live/Channel(DDSPORTS)/index.m3u8"
-    },
-    {
-        "name": "DD Sports",
-        "url": "http://103.199.161.254/Content/ddsports/Live/Channel(DDSPORTS)/Stream(02)/index.m3u8"
     },
     {
         "name": "Deal or No Deal (720p)",
@@ -7068,10 +6100,6 @@ export default [
         "url": "http://ebsonairios.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8"
     },
     {
-        "name": "Ecran TV (720p)",
-        "url": "http://51.210.199.40/hls/stream.m3u8"
-    },
-    {
         "name": "Edge Sports",
         "url": "https://imgedge.akamaized.net/amagi_hls_data_imgAAA2AA-edgesports/CDN/playlist.m3u8"
     },
@@ -7164,10 +6192,6 @@ export default [
         "url": "https://errstreams4.cdn.eurovisioncdn.net/live/etv2.m3u8"
     },
     {
-        "name": "Euro Indie Music Chart TV[640*360]",
-        "url": "http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8"
-    },
-    {
         "name": "Euro TV (720p)",
         "url": "https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8"
     },
@@ -7236,20 +6260,12 @@ export default [
         "url": "https://a.jsrdn.com/broadcast/7b1451fa52/+0000/c.m3u8"
     },
     {
-        "name": "EXTASY ",
-        "url": "http://213.151.233.20:8000/dna-6233-tv-pc/hls/4004v105.m3u8"
-    },
-    {
         "name": "Fajer TV (720p)",
         "url": "http://two.alfajertv.com:8081/AlfajertvHDTwo_web/web/playlist.m3u8"
     },
     {
         "name": "Family Flix (720p)",
         "url": "https://linear-137.frequency.stream/dist/localnow/137/hls/master/playlist.m3u8"
-    },
-    {
-        "name": "Fashion & Lifestyle (UA)",
-        "url": "http://95.67.47.115/hls/hdfashion_ua_low/index.m3u8"
     },
     {
         "name": "Fashion TV",
@@ -7312,10 +6328,6 @@ export default [
         "url": "http://media.fishingtv.kr:1935/mobileLIVE/_definst_/mp4:livestream.sdp/playlist.m3u8"
     },
     {
-        "name": "Flowers TV",
-        "url": "http://103.199.161.254/Content/flowers/Live/Channel(Flowers)/index.m3u8"
-    },
-    {
         "name": "Folk TV",
         "url": "http://584b0aa350b92.streamlock.net:1935/folk-tv/myStream.sdp/playlist.m3u8"
     },
@@ -7350,10 +6362,6 @@ export default [
     {
         "name": "FOX-FS1",
         "url": "http://stream.fs1.tv:8080/hls/webstream.m3u8"
-    },
-    {
-        "name": "FRANCE",
-        "url": "http://58.99.33.16:1935/liveedge17/live_156_3.stream/chunklist.m3u8"
     },
     {
         "name": "France 24",
@@ -7424,10 +6432,6 @@ export default [
         "url": "https://csm-e-stv.tls1.yospace.com/csm/live/203444271.m3u8"
     },
     {
-        "name": "Fresh News TV (720p)",
-        "url": "http://167.99.65.12:1935/live/ngrp:myStream_all/playlist.m3u8"
-    },
-    {
         "name": "FrightFlix (720p)",
         "url": "https://content.uplynk.com/channel/4b3fda1ff2c24556bc2c6034307d117d.m3u8"
     },
@@ -7442,10 +6446,6 @@ export default [
     {
         "name": "FTV (720p)",
         "url": "https://str2.yodacdn.net/publive/ftv/video.m3u8"
-    },
-    {
-        "name": "FTVLIVE",
-        "url": "http://218.236.58.185:1935/FTVLIVE_MOBILE/Stream_mobile/playlist.m3u8"
     },
     {
         "name": "fubo Sports Network (720p)",
@@ -7494,10 +6494,6 @@ export default [
     {
         "name": "GH Television Canal 10 (720p) [Not 24/7]",
         "url": "https://cloudflare.streamgato.us:3352/live/ghtelevisionhdlive.m3u8"
-    },
-    {
-        "name": "Gia Lai TV (486p)",
-        "url": "http://113.161.25.3:8134/hls/gialaitv/gialaitv.m3u8"
     },
     {
         "name": "GIT (720p)",
@@ -7574,14 +6570,6 @@ export default [
     {
         "name": "Global Toronto",
         "url": "https://live.corusdigitaldev.com/groupd/live/8970c668-40cd-4ca9-8c4d-25fd04f619b5/live.isml/master.m3u8"
-    },
-    {
-        "name": "Global TV (Opt-1)",
-        "url": "http://202.80.222.182:80/000001/2/ch14041511505498448705/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "Global TV (Opt-2)",
-        "url": "http://202.80.222.130/000001/2/ch14041511505498448705/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "Goiena Eus (720p) [Not 24/7]",
@@ -7672,20 +6660,8 @@ export default [
         "url": "https://haunttv-roku.amagi.tv/playlist.m3u8"
     },
     {
-        "name": "HBO",
-        "url": "http://125.227.210.55:16027/VideoInput/play.ts"
-    },
-    {
         "name": "HBTV",
         "url": "http://hoabinhtvlive.746b3ddb.cdnviet.com/hoabinhtv/chunklist.m3u8"
-    },
-    {
-        "name": " Fashion",
-        "url": "http://95.67.47.114/hls/hdfashion_ua_hi/index.m3u8"
-    },
-    {
-        "name": "Fashion & LifeStyle (1080p)",
-        "url": "http://95.67.47.114/hls/hdfashion_ua.m3u8"
     },
     {
         "name": "Hipódromo de las Américas",
@@ -7716,10 +6692,6 @@ export default [
         "url": "https://hncfree-vizio.amagi.tv/playlist.m3u8"
     },
     {
-        "name": "HodHod TV",
-        "url": "http://51.210.199.12/hls/stream.m3u8"
-    },
-    {
         "name": "HomeOne TV (1080p)",
         "url": "https://streamer104.neterra.tv/n1tv/n1tv.smil/playlist.m3u8"
     },
@@ -7730,10 +6702,6 @@ export default [
     {
         "name": "Honor TV (720p)",
         "url": "https://a.jsrdn.com/broadcast/d5b48/+0000/c.m3u8"
-    },
-    {
-        "name": "Horizon Armenian (1080p)",
-        "url": "http://5.254.76.34:17070/C441/index.m3u8?token=kdsdkwy453wrRq29IIIo"
     },
     {
         "name": "Horror Machine (720p)",
@@ -7786,10 +6754,6 @@ export default [
     {
         "name": "Ici RDI (720p)",
         "url": "https://rcavlive.akamaized.net/hls/live/704025/xcanrdi/master.m3u8"
-    },
-    {
-        "name": "Icnet TV (720p) [Not 24/7]",
-        "url": "http://51.210.199.7/hls/stream.m3u8"
     },
     {
         "name": "IDG",
@@ -7848,28 +6812,12 @@ export default [
         "url": "https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/independent-8-org.stream/playlist.m3u8"
     },
     {
-        "name": "INDIA",
-        "url": "http://158.69.124.9:1935/5aabtv/5aabtv/playlist.m3u8"
-    },
-    {
         "name": "India TV",
         "url": "https://live-indiatvnews.akamaized.net/indiatv-origin/liveabr/indiatv-origin/live2/chunks.m3u8"
     },
     {
         "name": "IndigenousTV",
         "url": "http://streamipcf.akamaized.net/live/_definst_/smil:liveabr.smil/playlist.m3u8"
-    },
-    {
-        "name": "Indosiar (Opt-1)",
-        "url": "http://202.80.222.182/000001/2/ch15051810235326945512/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "Indosiar (Opt-2)",
-        "url": "http://202.80.222.130/000001/2/ch15051810235326945512/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "iNews TV",
-        "url": "http://202.80.222.175/000001/2/ch14041511541532132975/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "Insert _USEETV",
@@ -7900,10 +6848,6 @@ export default [
         "url": "https://ion-ion-plus-1.vizio.wurl.com/manifest/playlist.m3u8"
     },
     {
-        "name": "Iranintl.Radio",
-        "url": "http://51.210.199.46/hls/stream.m3u8"
-    },
-    {
         "name": "Iraq Future",
         "url": "https://streaming.viewmedia.tv/viewsatstream40/viewsatstream40.smil/playlist.m3u8"
     },
@@ -7928,24 +6872,8 @@ export default [
         "url": "https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/playlist.m3u8"
     },
     {
-        "name": "Jaihind TV",
-        "url": "http://103.199.161.254/Content/jaihind/Live/Channel(Jaihind)/index.m3u8"
-    },
-    {
         "name": "Jakarta Globe News",
         "url": "http://edge.linknetott.swiftserve.com/live/BsNew/amlst:bsenglish/playlist.m3u8"
-    },
-    {
-        "name": "JakTV (Opt-1)",
-        "url": "http://202.80.222.182:80/000001/2/ch00000090990000001695/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "JakTV (Opt-2)",
-        "url": "http://202.80.222.169:80/000001/2/ch00000090990000001695/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "JakTV (Opt-3)",
-        "url": "http://202.80.222.130/000001/2/ch00000090990000001695/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "JakTV _USEETV",
@@ -7960,32 +6888,12 @@ export default [
         "url": "https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/jamuna-test-sample-ok.stream/playlist.m3u8"
     },
     {
-        "name": "Jasmin TV",
-        "url": "http://109.71.162.112:1935/live/sd.jasminchannel.stream/playlist.m3u8"
-    },
-    {
-        "name": "Jasmin TV[1280*720][1280*720]",
-        "url": "http://109.71.162.112:1935/live/hd.jasminchannel.stream/playlist.m3u8"
-    },
-    {
-        "name": "Jawa Pos TV (Opt-1)",
-        "url": "http://202.80.222.175/000001/2/ch00000090990000001731/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
         "name": "JAWHARA TV (720p)",
         "url": "https://streaming.toutech.net/live/jtv/index.m3u8"
     },
     {
-        "name": "Jeevan TV",
-        "url": "http://103.199.161.254/Content/jeevan/Live/Channel(Jeevan)/index.m3u8"
-    },
-    {
         "name": "JENZ (1080p)",
         "url": "https://ms7.mx-cd.net/tv/192-840604/Jenz_TV.smil/playlist.m3u8"
-    },
-    {
-        "name": "Jhanjar Music[1280*720]",
-        "url": "http://159.203.9.134/hls/jhanjar_music/jhanjar_music.m3u8"
     },
     {
         "name": "JNE TV [Not 24/7]",
@@ -8012,22 +6920,6 @@ export default [
         "url": "https://stream3.shopch.jp/httporiginlivech1/ch1.stream_1280p/chunklist.m3u8"
     },
     {
-        "name": "Kairali TV",
-        "url": "http://103.199.161.254/Content/kairali/Live/Channel(Kairali)/index.m3u8"
-    },
-    {
-        "name": "Kairali We",
-        "url": "http://103.199.161.254/Content/we/Live/Channel(We)/index.m3u8"
-    },
-    {
-        "name": "Kajou TV (720p)",
-        "url": "https://video1.getstreamhosting.com:1936/8055/8055/playlist.m3u8"
-    },
-    {
-        "name": "Kalaignar",
-        "url": "http://103.199.161.254/Content/kalaignartv/Live/Channel(KalaignarTV)/index.m3u8"
-    },
-    {
         "name": "Kanal 3 (720p)",
         "url": "https://waw2.artiyerelmedya.net/kanal3/bant1/playlist.m3u8"
     },
@@ -8048,10 +6940,6 @@ export default [
         "url": "https://waw2.artiyerelmedya.net/kanal68/bant1/playlist.m3u8"
     },
     {
-        "name": "Kanal Avrupa (1080p)",
-        "url": "http://51.15.2.151/hls/kanalavrupa.m3u8"
-    },
-    {
         "name": "Kanal Firat (720p)",
         "url": "https://waw2.artiyerelmedya.net/kanalfirat/bant1/playlist.m3u8"
     },
@@ -8068,20 +6956,8 @@ export default [
         "url": "https://waw2.artiyerelmedya.net/kanalz/bant1/playlist.m3u8"
     },
     {
-        "name": "Kappa TV",
-        "url": "http://103.199.161.254/Content/kappa/Live/Channel(Kappa)/index.m3u8"
-    },
-    {
         "name": "Kay TV (720p)",
         "url": "https://waw2.artiyerelmedya.net/kaytv/bant1/playlist.m3u8"
-    },
-    {
-        "name": "KBC",
-        "url": "http://221.157.125.232:1935/live/kbctv/playlist.m3u8"
-    },
-    {
-        "name": "KBC 광주방송(SBS 光州)[1920*1080]",
-        "url": "http://119.200.131.11:1935/KBCTV/tv/playlist.m3u8"
     },
     {
         "name": "KBS World",
@@ -8128,14 +7004,6 @@ export default [
         "url": "https://live-k2302-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8"
     },
     {
-        "name": "Kompas (Opt-1)",
-        "url": "http://202.80.222.182/000001/2/ch00000090990000001730/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "Kompas (Opt-2)",
-        "url": "http://202.80.222.130/000001/2/ch00000090990000001730/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
         "name": "Kompas TV _USEETV",
         "url": "http://hi.hi-back.masuk.web.id/c.m3u8?shinta=GoodBye&coday=ffd67d44870fda644560c47682a87a73&cdy=9bf31c7ff062936a96d3c8bd1f8f2ff30fb3069a97a8fb9df1d75e6456ecef11"
     },
@@ -8168,10 +7036,6 @@ export default [
         "url": "https://d1x82nydcxndze.cloudfront.net/live/index.m3u8"
     },
     {
-        "name": "KurdMax (1080p) [Not 24/7]",
-        "url": "http://31.14.40.139:1935/liveTrans/ngrp:myStream2_all/playlist.m3u8"
-    },
-    {
         "name": "KurdSat (720p)",
         "url": "http://ikomg2.s.llnwi.net/kurdsathd/playlist.m3u8"
     },
@@ -8196,14 +7060,6 @@ export default [
         "url": "http://c2.manasat.com:1935/kmusic/kmusic3/FluxusTV.m3u8"
     },
     {
-        "name": "Kuriakos TV (1080p)",
-        "url": "http://195.22.11.11:1935/ktv/ktv1/master.m3u8"
-    },
-    {
-        "name": "Kurir TV",
-        "url": "http://51.15.154.138/providus/live2805_hq/index.m3u8"
-    },
-    {
         "name": "Kweli TV (720p)",
         "url": "https://a.jsrdn.com/broadcast/9c897f1973/+0000/c.m3u8"
     },
@@ -8214,10 +7070,6 @@ export default [
     {
         "name": "La Télé (1080p)",
         "url": "https://latele.vedge.infomaniak.com/livecast/latele/playlist.m3u8"
-    },
-    {
-        "name": "LA34 - Long An",
-        "url": "http://113.161.229.13/hls-live/livepkgr/_definst_/liveevent/tv.m3u8"
     },
     {
         "name": "Lahore News (720p)",
@@ -8468,10 +7320,6 @@ export default [
         "url": "https://livecdn.fptplay.net/sdc/fbnchd_hls.smil/playlist.m3u8"
     },
     {
-        "name": "like Gecko) Mobile/13G36",
-        "url": "http://168.227.22.18:1935/tvm/tvm.stream/playlist.m3u8"
-    },
-    {
         "name": "Lively Place (720p)",
         "url": "https://aenetworks-ae-1.samsung.wurl.com/manifest/playlist.m3u8"
     },
@@ -8482,14 +7330,6 @@ export default [
     {
         "name": "LNKTV City (1080p)",
         "url": "http://5tv.lincoln.ne.gov/live/WIFI-2096k-1080p/WIFI-2096k-1080p.m3u8"
-    },
-    {
-        "name": "LNKTV Education (1080p)",
-        "url": "http://80tv.lincoln.ne.gov/live/WIFI-2096k-1080p/WIFI-2096k-1080p.m3u8"
-    },
-    {
-        "name": "LNKTV Health (1080p)",
-        "url": "http://10tv.lincoln.ne.gov/live/WIFI-2096k-1080p/WIFI-2096k-1080p.m3u8"
     },
     {
         "name": "Local Now Adrenaline Rush (720p)",
@@ -8624,24 +7464,8 @@ export default [
         "url": "http://a3569457544-zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/bw20000000/playlist.m3u8"
     },
     {
-        "name": "LOVE4K",
-        "url": "http://177.20.208.58:8000/play/a03r/index.m3u8"
-    },
-    {
-        "name": "Lóverseny közvetítés (420p)",
-        "url": "http://87.229.103.60:1935/liverelay/loverseny2.sdp/playlist.m3u8"
-    },
-    {
         "name": "Luxury World",
         "url": "http://nano.teleservice.su:8080/hls/luxury.m3u8"
-    },
-    {
-        "name": "M24 TV (720p) [Not 24/7]",
-        "url": "http://79.137.106.241/live/smil:OutStream1.smil/playlist.m3u8"
-    },
-    {
-        "name": "Maah TV",
-        "url": "http://51.210.199.33/hls/stream.m3u8"
     },
     {
         "name": "Madani Channel English (1080p)",
@@ -8650,14 +7474,6 @@ export default [
     {
         "name": "Mandarin Radio",
         "url": "http://streaming.radionomy.com/JamendoLounge"
-    },
-    {
-        "name": "Mangalam TV",
-        "url": "http://103.199.160.85/Content/mangalam/Live/Channel(Mangalam)/index.m3u8"
-    },
-    {
-        "name": "Manorama News",
-        "url": "http://103.199.161.254/Content/manoramanews/Live/Channel(ManoramaNews)/index.m3u8"
     },
     {
         "name": "Manoto TV (1080p)",
@@ -8674,14 +7490,6 @@ export default [
     {
         "name": "Marvel HQ (720p)",
         "url": "https://feed.play.mv/live/10005200/niZoVrR2vD/master.m3u8"
-    },
-    {
-        "name": "Mastiii",
-        "url": "http://103.199.160.85/Content/masthi/Live/Channel(Masthi)/index.m3u8"
-    },
-    {
-        "name": "Mathrubhumi News",
-        "url": "http://103.199.161.254/Content/mathrubhuminews/Live/Channel(Mathrubhuminews)/index.m3u8"
     },
     {
         "name": "MaticesTV (Cañete) [Not 24/7]",
@@ -8740,14 +7548,6 @@ export default [
         "url": "http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/playlist.m3u8"
     },
     {
-        "name": "MetroTV (Opt-2)",
-        "url": "http://202.80.222.183/000001/2/ch14041511515576869807/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "MetroTV (Opt-4)",
-        "url": "http://202.80.222.130/000001/2/ch14041511515576869807/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
         "name": "Mexiquense TV (720p) [Not 24/7]",
         "url": "https://5ca3e84a76d30.streamlock.net/mexiquense/videomexiquense/playlist.m3u8"
     },
@@ -8776,28 +7576,8 @@ export default [
         "url": "https://6096a9cf11ae5.streamlock.net:1943/live/missiontv/playlist.m3u8"
     },
     {
-        "name": "MK Tunes",
-        "url": "http://103.199.160.85/Content/mktunes/Live/Channel(MKTunes)/index.m3u8"
-    },
-    {
-        "name": "MK TV",
-        "url": "http://103.199.160.85/Content/mktv/Live/Channel(MKTV)/index.m3u8"
-    },
-    {
         "name": "MLB Network",
         "url": "http://hlslive-akc-med1.media.mlb.com/ls01/mlbnetwork/NETWORK_LINEAR_1/master_wired.m3u8"
-    },
-    {
-        "name": "MMC (720p) [Not 24/7]",
-        "url": "https://29-rtvslo-tv-mmc-int.cdn.eurovisioncdn.net/playlist.m3u8"
-    },
-    {
-        "name": "MNC News",
-        "url": "http://202.80.222.130/000001/2/ch14041511564438196910/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "MNC TV",
-        "url": "http://202.80.222.182/000001/2/ch14041511111714365733/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "Mola TV España[1280*720]",
@@ -8836,10 +7616,6 @@ export default [
         "url": "http://mellitv.tulix.tv:1935/mellitv/myStream.sdp/playlist.m3u8"
     },
     {
-        "name": "MTN[1280*720]",
-        "url": "http://183.110.27.87/mtnlive/_definst_/720/chunklist.m3u8"
-    },
-    {
         "name": "MTV Yo!",
         "url": "http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8"
     },
@@ -8866,14 +7642,6 @@ export default [
     {
         "name": "Music Top[1280*720]",
         "url": "http://live-edge01.telecentro.net.ar:1935/live/msctphd-720/playlist.m3u8"
-    },
-    {
-        "name": "Music4U",
-        "url": "http://203.154.243.89:1213"
-    },
-    {
-        "name": "MusicBox Georgia (180p)",
-        "url": "http://94.43.239.178:8080/CHANNEL470/BITRATE0/playlist.m3u8"
     },
     {
         "name": "MusicTop (720p)",
@@ -8920,10 +7688,6 @@ export default [
         "url": "https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8"
     },
     {
-        "name": "Nabaa TV (720p)",
-        "url": "http://31.14.40.237:1935/live/Nabaa/playlist.m3u8"
-    },
-    {
         "name": "NACTV (720p) [Not 24/7]",
         "url": "http://stream.pivotalelements.com/nactv/stream.m3u8"
     },
@@ -8960,10 +7724,6 @@ export default [
         "url": "http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8"
     },
     {
-        "name": "NAVAHANG (720p)",
-        "url": "http://51.210.227.130/hls/stream.m3u8"
-    },
-    {
         "name": "NBC 26 Green Bay WI (WGBA) (720p)",
         "url": "https://content.uplynk.com/channel/1fbfb28ae5044f619f75ae0adb011989.m3u8"
     },
@@ -8998,14 +7758,6 @@ export default [
     {
         "name": "Net TV (720p)",
         "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8"
-    },
-    {
-        "name": "Net TV (Opt-1)",
-        "url": "http://202.80.222.170/000001/2/ch00000090990000001723/index.m3u8?virtualDomain=000001.live_hls.zte.com&IASHttpSessionId=OTT219782019062322524313983108"
-    },
-    {
-        "name": "Net TV (Opt-4)",
-        "url": "http://202.80.222.130/000001/2/ch00000090990000001723/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "Net. _USEETV",
@@ -9048,10 +7800,6 @@ export default [
         "url": "http://ax.micaesoft.com/YMitv/YMITV_CN_eratv.m3u8"
     },
     {
-        "name": "NHK",
-        "url": "http://58.99.33.16:1935/liveedge17/live_108_3.stream/chunklist.m3u8"
-    },
-    {
         "name": "NHK Chinese Vision[1280*720]",
         "url": "https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8"
     },
@@ -9078,10 +7826,6 @@ export default [
     {
         "name": "Nippon TV News24 Japan",
         "url": "https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8"
-    },
-    {
-        "name": "Nisville TV RS",
-        "url": "http://92.60.237.32:1935/live/nisville/playlist.m3u8"
     },
     {
         "name": "Noovo",
@@ -9160,20 +7904,8 @@ export default [
         "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:ok-dessau_high/playlist.m3u8"
     },
     {
-        "name": "OK Magdeburg",
-        "url": "http://62.113.210.250:1935/medienasa-live/_definst_/mp4:ok-magdeburg_high/playlist.m3u8"
-    },
-    {
-        "name": "OK Merseburg",
-        "url": "http://62.113.210.250:1935/medienasa-live/_definst_/mp4:ok-merseburg_high/playlist.m3u8"
-    },
-    {
         "name": "OK Salzwedel",
         "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:ok-salzwedel_high/playlist.m3u8"
-    },
-    {
-        "name": "OK Wernigerode",
-        "url": "http://62.113.210.250:1935/medienasa-live/_definst_/mp4:ok-wernigerode_high/playlist.m3u8"
     },
     {
         "name": "OL3 Radio Tv[1280*720]",
@@ -9186,10 +7918,6 @@ export default [
     {
         "name": "Olelo 53 (720p)",
         "url": "http://granicusliveus12-a.akamaihd.net/olelo/G0125_011/playlist.m3u8"
-    },
-    {
-        "name": "Omide Iran (720p) [Not 24/7]",
-        "url": "http://51.210.199.38/hls/stream.m3u8"
     },
     {
         "name": "Omroep Brabant Radio[1920*1080]",
@@ -9210,10 +7938,6 @@ export default [
     {
         "name": "Once Mexico (720p)",
         "url": "https://live2.canaloncelive.tv/livepkgr3/cepro/playlist.m3u8"
-    },
-    {
-        "name": "One TV (720p)",
-        "url": "http://137.59.86.218:1935/live/onetv/playlist.m3u8"
     },
     {
         "name": "Ontario Parliamentary Network",
@@ -9280,58 +8004,6 @@ export default [
         "url": "https://d1qaz9zojo1ayt.cloudfront.net/playlist.m3u8"
     },
     {
-        "name": "Persian Film (720p)",
-        "url": "http://51.210.227.135/hls/stream.m3u8"
-    },
-    {
-        "name": "Persiana Cinema",
-        "url": "http://51.210.199.15/hls/stream.m3u8"
-    },
-    {
-        "name": "Persiana Classic",
-        "url": "http://51.210.199.26/hls/stream.m3u8"
-    },
-    {
-        "name": "Persiana Comedy",
-        "url": "http://51.210.199.27/hls/stream.m3u8"
-    },
-    {
-        "name": "Persiana Family Plus",
-        "url": "http://51.210.199.13/hls/stream.m3u8"
-    },
-    {
-        "name": "Persiana Game & Tech",
-        "url": "http://51.210.199.25/hls/stream.m3u8"
-    },
-    {
-        "name": "Persiana Iranian (720p) [Not 24/7]",
-        "url": "http://51.210.199.22/hls/stream.m3u8"
-    },
-    {
-        "name": "Persiana Junior",
-        "url": "http://51.210.199.18/hls/stream.m3u8"
-    },
-    {
-        "name": "Persiana Korea",
-        "url": "http://51.210.199.14/hls/stream.m3u8"
-    },
-    {
-        "name": "Persiana Music",
-        "url": "http://51.210.199.24/hls/stream.m3u8"
-    },
-    {
-        "name": "Persiana Nostalgia",
-        "url": "http://51.210.199.20/hls/stream.m3u8"
-    },
-    {
-        "name": "Persiana Plus",
-        "url": "http://51.210.199.21/hls/stream.m3u8"
-    },
-    {
-        "name": "PigpenRadio",
-        "url": "http://178.79.158.160:8213/stream?type=http&nocache=8702"
-    },
-    {
         "name": "Players TV (1080p)",
         "url": "https://playerstv-samsunguk.amagi.tv/playlist.m3u8"
     },
@@ -9354,14 +8026,6 @@ export default [
     {
         "name": "Pluto TV Nick (720p)",
         "url": "https://siloh.pluto.tv/lilo/production/Nick/01/master.m3u8"
-    },
-    {
-        "name": "PMC Royale (720p)",
-        "url": "http://51.210.199.29/hls/stream.m3u8"
-    },
-    {
-        "name": "PNN",
-        "url": "http://203.176.130.123:8989/live/pnn_480k.stream/playlist.m3u8"
     },
     {
         "name": "PNTV",
@@ -9436,10 +8100,6 @@ export default [
         "url": "https://rpn1.bozztv.com/36bay2/gusa-ptd/playlist.m3u8"
     },
     {
-        "name": "Public Music",
-        "url": "http://103.199.161.254/Content/publicmusic/Live/Channel(PublicMusic)/index.m3u8"
-    },
-    {
         "name": "Punjabi TV",
         "url": "http://cdn9.live247stream.com/punjabitvcanada/tv/playlist.m3u8"
     },
@@ -9452,10 +8112,6 @@ export default [
         "url": "https://59825a54e4454.streamlock.net:8443/william233/william233/playlist.m3u8"
     },
     {
-        "name": "Puthuyugam TV",
-        "url": "http://103.199.160.85/Content/puthuyugam/Live/Channel(Puthuyugam)/index.m3u8"
-    },
-    {
         "name": "Qello Concerts by Stingray (1080p)",
         "url": "https://stingray-qelloconcerts-1-gb.samsung.wurl.com/manifest/playlist.m3u8"
     },
@@ -9464,20 +8120,12 @@ export default [
         "url": "https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8"
     },
     {
-        "name": "Quang Nam TV",
-        "url": "http://113.161.6.157:8081/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8"
-    },
-    {
         "name": "Quietude (720p)",
         "url": "https://linear-81.frequency.stream/dist/localnow/81/hls/master/playlist.m3u8"
     },
     {
         "name": "Quillavision (Cuzco) [Not 24/7]",
         "url": "http://v4.tustreaming.cl/quillavision/index.m3u8"
-    },
-    {
-        "name": "Quốc Hội",
-        "url": "http://113.164.225.140:1935/live/quochoitvlive.stream_720p/playlist.m3u8"
     },
     {
         "name": "QVC Italia (720p)",
@@ -9564,28 +8212,8 @@ export default [
         "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899"
     },
     {
-        "name": "Rajawali TV (Opt-1)",
-        "url": "http://202.80.222.171:80/000001/2/ch00000090990000001716/index.m3u8?virtualDomain=000001.live_hls.zte.com&IASHttpSessionId=OTT2198020181031055334464619"
-    },
-    {
-        "name": "Rajawali TV (Opt-2)",
-        "url": "http://202.80.222.170/000001/2/ch00000090990000001716/index.m3u8?virtualDomain=000001.live_hls.zte.com&IASHttpSessionId=OTT219992019062322543114287379"
-    },
-    {
-        "name": "Rajawali TV (Opt-3)",
-        "url": "http://202.80.222.170:80/000001/2/ch00000090990000001716/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "Rajawali TV (Opt-5)",
-        "url": "http://202.80.222.130/000001/2/ch00000090990000001716/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
         "name": "Rajawali TV _USEETV",
         "url": "http://hi.hi-back.masuk.web.id/c.m3u8?shinta=GoodBye&coday=ffd67d44870fda644560c47682a87a73&cdy=aab3238922bcc25a6f606eb525ffdc560fb3069a97a8fb9df1d75e6456ecef11"
-    },
-    {
-        "name": "Ran1 Dessau-Roßlau",
-        "url": "http://62.113.210.250:1935/medienasa-live/_definst_/mp4:ran1_high/playlist.m3u8"
     },
     {
         "name": "RBW Bitterfeld-Wolfen",
@@ -9594,10 +8222,6 @@ export default [
     {
         "name": "RCG TV (1080p)",
         "url": "https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8"
-    },
-    {
-        "name": "RCTI (Opt-1)",
-        "url": "http://202.80.222.182/000001/2/ch14041511532707866226/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "Real Families (1080p)",
@@ -9676,10 +8300,6 @@ export default [
         "url": "http://web.onair-radio.eu:1935/video/video/playlist.m3u8"
     },
     {
-        "name": "Reporter TV",
-        "url": "http://103.199.161.254/Content/reporter/Live/Channel(Reporter)/index.m3u8"
-    },
-    {
         "name": "Reshet 13 (720p)",
         "url": "https://d18b0e6mopany4.cloudfront.net/out/v1/08bc71cf0a0f4712b6b03c732b0e6d25/index.m3u8"
     },
@@ -9750,10 +8370,6 @@ export default [
     {
         "name": "Rooster Teeth TV (1080p)",
         "url": "https://d2klx6wjx7p5vm.cloudfront.net/Rooster-teeth/ngrp:Rooster-teeth_all/playlist.m3u8"
-    },
-    {
-        "name": "Rotana Radio (220p) [Not 24/7]",
-        "url": "http://188.247.86.66/RotanaRadio/OnAirStudio1/playlist.m3u8"
     },
     {
         "name": "RRI NET _USEETV",
@@ -9840,10 +8456,6 @@ export default [
         "url": "https://sabahvfmmobile.secureswiftcontent.com/rtm-ch024/rtm-ch024/playlist.m3u8"
     },
     {
-        "name": "SafeTV (1080p)",
-        "url": "http://18.191.91.130:1935/live/safetv/playlist.m3u8"
-    },
-    {
         "name": "Sahar (240p)",
         "url": "http://cdnlive.irib.ir/live-channels/smil:sahar3/playlist.m3u8"
     },
@@ -9880,10 +8492,6 @@ export default [
         "url": "https://sarawakfmmobile.secureswiftcontent.com/rtm-ch044/rtm-ch044/playlist.m3u8"
     },
     {
-        "name": "Sardari TV",
-        "url": "http://158.69.124.9:1935/sardaritv/sardaritv/playlist.m3u8"
-    },
-    {
         "name": "SBT TV Jornal (720p)",
         "url": "http://evpp.mm.uol.com.br:1935/ne10/ne10.smil/playlist.m3u8"
     },
@@ -9892,24 +8500,8 @@ export default [
         "url": "https://content.uplynk.com/channel/3e4b9cada2b74cf18977298804134a36.m3u8"
     },
     {
-        "name": "SCTV (Opt-1)",
-        "url": "http://202.80.222.182/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "SCTV (Opt-2)",
-        "url": "http://202.80.222.178/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "SCTV (Opt-4)",
-        "url": "http://202.80.222.130/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
         "name": "SEA Today _USEETV",
         "url": "http://hi.hi-back.masuk.web.id/c.m3u8?shinta=GoodBye&coday=ffd67d44870fda644560c47682a87a73&cdy=6faa8040da20ef399b63a72d0e4ab575dfdded94c48ea6229c48edefa9ec1c9f"
-    },
-    {
-        "name": "SEA TV",
-        "url": "http://203.176.130.123:8989/live/seatv_480k.stream/playlist.m3u8"
     },
     {
         "name": "Seattle Channel (720p)",
@@ -9956,26 +8548,6 @@ export default [
         "url": "https://linear-64.frequency.stream/dist/localnow/64/hls/master/playlist.m3u8"
     },
     {
-        "name": "Silence TV (720p) [Not 24/7]",
-        "url": "http://93.190.140.42:8081/SilenceTV/live/playlist.m3u8"
-    },
-    {
-        "name": "SiTV动漫秀场",
-        "url": "http://183.207.255.188/live/program/live/dmxchd/4000000/mnf.m3u8"
-    },
-    {
-        "name": "SiTV极速汽车",
-        "url": "http://183.207.255.188/live/program/live/jsqchd/4000000/mnf.m3u8"
-    },
-    {
-        "name": "SiTV欢笑剧场",
-        "url": "http://183.207.255.188/live/program/live/hxjchd/4000000/mnf.m3u8"
-    },
-    {
-        "name": "SiTV游戏风云",
-        "url": "http://183.207.255.188/live/program/live/yxfyhd/4000000/mnf.m3u8"
-    },
-    {
         "name": "SKWAD (720p)",
         "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=71"
     },
@@ -9990,10 +8562,6 @@ export default [
     {
         "name": "Sky News-Aus",
         "url": "https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8"
-    },
-    {
-        "name": "SL 1 (720p)",
-        "url": "http://51.210.199.3/hls/stream.m3u8"
     },
     {
         "name": "Smithsonian Channel Asia (1080p)",
@@ -10022,10 +8590,6 @@ export default [
     {
         "name": "Sofy TV (720p)",
         "url": "https://sofy-ger-samsung.amagi.tv/playlist.m3u8"
-    },
-    {
-        "name": "Sol Televisión",
-        "url": "http://190.211.140.89:8081/SVTranscoder/SOLTVabr.stream/playlist.m3u8"
     },
     {
         "name": "Somoy News TV (1080p)",
@@ -10260,10 +8824,6 @@ export default [
         "url": "https://tastemadetravel-vizio.amagi.tv/playlist.m3u8"
     },
     {
-        "name": "TBC 대구(SBS 大邱)",
-        "url": "http://221.157.125.239:1935/live/psike/playlist.m3u8"
-    },
-    {
         "name": "TBO Classic Telugu (720p)",
         "url": "https://catchup.yuppcdn.net/amazonv2/20/preview/tboclassic/master/master.m3u8"
     },
@@ -10286,10 +8846,6 @@ export default [
     {
         "name": "Tehelka TV (720p)",
         "url": "https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/tehelkatv.stream/playlist.m3u8"
-    },
-    {
-        "name": "TehranTV 24 (720p)",
-        "url": "http://51.210.227.132/hls/stream.m3u8"
     },
     {
         "name": "TELE CINE ACTION (390p)",
@@ -10346,10 +8902,6 @@ export default [
     {
         "name": "Telemax (XEWH-TDT) (720p)",
         "url": "http://s5.mexside.net:1935/telemax/telemax/playlist.m3u8"
-    },
-    {
-        "name": "Telemolise (1080p)",
-        "url": "http://185.202.128.1:1935/TelemoliseStream/telemoliseTV.stream/playlist.m3u8"
     },
     {
         "name": "telePAVIA (720p)",
@@ -10480,10 +9032,6 @@ export default [
         "url": "https://lds-timeline-plex.amagi.tv/playlist.m3u8"
     },
     {
-        "name": "TJB SBS",
-        "url": "http://1.245.74.5:1935/live/tv/.m3u8"
-    },
-    {
         "name": "TJC (1080p)",
         "url": "https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(TJCOTT)/index.m3u8"
     },
@@ -10498,10 +9046,6 @@ export default [
     {
         "name": "Toon Goggles (1080p)",
         "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=36"
-    },
-    {
-        "name": "Toonix (720p)",
-        "url": "http://51.210.227.134/hls/stream.m3u8"
     },
     {
         "name": "Top Stories by Newsy (720p)",
@@ -10526,26 +9070,6 @@ export default [
     {
         "name": "Trace Urban (Australia)",
         "url": "https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8"
-    },
-    {
-        "name": "Trans 7 (Opt-1)",
-        "url": "http://202.80.222.182/000001/2/ch14041511545447343123/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "Trans 7 (Opt-2)",
-        "url": "http://202.80.222.130/000001/2/ch14041511545447343123/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "Trans TV (Opt-1)",
-        "url": "http://202.80.222.182/000001/2/ch14041511552652254306/index.m3u8?virtualDomain=000001.live_hls.zte.com"
-    },
-    {
-        "name": "Trans TV (Opt-2)",
-        "url": "http://202.80.222.174/000001/2/ch14041511552652254306/index.m3u8?virtualDomain=000001.live_hls.zte.com&IASHttpSessionId=OTT2931201906232251491158010"
-    },
-    {
-        "name": "Trans TV (Opt-3)",
-        "url": "http://202.80.222.130/000001/2/ch14041511552652254306/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "Trans7 _USEETV",
@@ -10584,14 +9108,6 @@ export default [
         "url": "https://5ac31d8a4c9af.streamlock.net/tunimmob/myStream/playlist.m3u8"
     },
     {
-        "name": "Türkmen Owazy (406p) [Not 24/7]",
-        "url": "http://217.174.225.146/legacyhls/ch005_720/index.m3u8"
-    },
-    {
-        "name": "Türkmenistan Sport",
-        "url": "http://217.174.225.146/legacyhls/ch004_400/index.m3u8"
-    },
-    {
         "name": "Türkmenistan Sport",
         "url": "https://alpha.tv.online.tm/hls/ch004_720/index.m3u8"
     },
@@ -10600,24 +9116,12 @@ export default [
         "url": "https://alpha.tv.online.tm/legacyhls/ch004_720/index.m3u8"
     },
     {
-        "name": "Türkmenistan Sport",
-        "url": "http://217.174.225.146/legacyhls/ch004_720/index.m3u8"
-    },
-    {
-        "name": "Türkmenistan Sport",
-        "url": "http://217.174.225.146/hls/ch004_720/index.m3u8"
-    },
-    {
         "name": "TV 2 Sporten (720p)",
         "url": "https://ws31-hls-live.akamaized.net/out/u/1416253.m3u8"
     },
     {
         "name": "TV 5",
         "url": "http://hls.cdn.ua/tv5.zp.ua_live/_definst_:tv5/playlist.m3u8"
-    },
-    {
-        "name": "TV 9 Nusantara (Opt-2)",
-        "url": "http://202.80.222.130/000001/2/ch00000000000000001522/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "TV 16 Toronto (720p) [Not 24/7]",
@@ -10634,10 +9138,6 @@ export default [
     {
         "name": "TV Aparecida (1080p)",
         "url": "https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8"
-    },
-    {
-        "name": "TV Belle Amie (720p) [Not 24/7]",
-        "url": "http://92.60.238.10:1935/live/belleamie/playlist.m3u8"
     },
     {
         "name": "TV BNO (270p) [Not 24/7]",
@@ -10776,10 +9276,6 @@ export default [
         "url": "https://ws15-hls-live.akamaized.net/out/u/1153546.m3u8"
     },
     {
-        "name": "TV5monde",
-        "url": "http://58.99.33.16:1935/liveedge17/live_157_3.stream/chunklist.m3u8"
-    },
-    {
         "name": "TV7 Colmar",
         "url": "http://tv7.hdr-tv.com:1935/live/tv7/livestream/playlist.m3u8"
     },
@@ -10808,16 +9304,8 @@ export default [
         "url": "https://59f2354c05961.streamlock.net:1443/tvideonews/_definst_/tvideonews/chunklist.m3u8"
     },
     {
-        "name": "TVK",
-        "url": "http://203.176.130.123:8989/live/tvk_480k.stream/playlist.m3u8"
-    },
-    {
         "name": "TVK Camboya (720p)",
         "url": "https://livefta.malimarcdn.com/tvkedge/tvk2.stream/master.m3u8"
-    },
-    {
-        "name": "TVKU",
-        "url": "http://103.30.1.14:8080/hls/live.m3u8"
     },
     {
         "name": "TVM 3 (1080p)",
@@ -10830,10 +9318,6 @@ export default [
     {
         "name": "TVO KIDS",
         "url": "https://bcsecurelivehls-i.akamaihd.net/hls/live/623607/15364602001/tvokids/master.m3u8"
-    },
-    {
-        "name": "tvOne (Opt-2)",
-        "url": "http://202.80.222.130/000001/2/ch14061215030555428637/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "TVP (720p)",
@@ -10850,10 +9334,6 @@ export default [
     {
         "name": "TVR (Bretagne)",
         "url": "https://streamtv.cdn.dvmr.fr/TVR/ngrp:tvr.stream_all/master.m3u8"
-    },
-    {
-        "name": "TVRI (Opt-3)",
-        "url": "http://202.80.222.130/000001/2/ch14041511560872104862/index.m3u8?virtualDomain=000001.live_hls.zte.com"
     },
     {
         "name": "TVRI _USEETV",
@@ -10968,16 +9448,8 @@ export default [
         "url": "http://live.worktv.or.kr:1935/live/wowtvlive1.sdp/playlist.m3u8"
     },
     {
-        "name": "Twenty Four News",
-        "url": "http://103.199.160.85/Content/24news/Live/Channel(24news)/index.m3u8"
-    },
-    {
         "name": "UA: Одеса (384p)",
         "url": "https://cdn10.live-tv.od.ua:8083/odtrkod/odtrkod-abr/playlist.m3u8"
-    },
-    {
-        "name": "UATV (720p)",
-        "url": "http://95.67.106.242/hls/ua-tv_ua_mid/index.m3u8"
     },
     {
         "name": "UçanKuş TV (720p)",
@@ -11064,10 +9536,6 @@ export default [
         "url": "http://cdn.streamingmedia.cl:1935/live/vtvvina/playlist.m3u8"
     },
     {
-        "name": "Warner TV (720p)",
-        "url": "http://203.154.243.89:11205"
-    },
-    {
         "name": "WATAN-E-MAA",
         "url": "https://5caf24a595d94.streamlock.net:1937/8132/8132/playlist.m3u8"
     },
@@ -11144,10 +9612,6 @@ export default [
         "url": "https://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8"
     },
     {
-        "name": "WPIX 11 (1080p)",
-        "url": "http://71.187.29.220:8000/play/a08o/index.m3u8"
-    },
-    {
         "name": "Wu Tang Collection (720p)",
         "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=73"
     },
@@ -11188,10 +9652,6 @@ export default [
         "url": "http://streams.sibinformburo.cdnvideo.ru/sibinformburo/sibinformburo.sdp/chunklist.m3u8"
     },
     {
-        "name": "Yupp Thirai (270p)",
-        "url": "http://119.81.82.28/encoded/yuppthirai_800/playlist.m3u8"
-    },
-    {
         "name": "Zagros (720p)",
         "url": "https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8"
     },
@@ -11220,10 +9680,6 @@ export default [
         "url": "http://serv25.vintera.tv:8081/test/aris/playlist.m3u8"
     },
     {
-        "name": "Астрахань 24 (720p)",
-        "url": "http://83.234.104.142/astrakhan24hd/playlist.m3u8"
-    },
-    {
         "name": "Башкортостан 24 (1080p)",
         "url": "http://live.gtrk.tv/hls/b24-hls.m3u8"
     },
@@ -11234,14 +9690,6 @@ export default [
     {
         "name": "Вечерняя Москва (1080p)",
         "url": "https://vmvideo.gcdn.co/streams/1503_161/playlist.m3u8"
-    },
-    {
-        "name": "Время",
-        "url": "http://91.185.3.218:4000/play/607"
-    },
-    {
-        "name": "Дом кино (1080p)",
-        "url": "http://91.185.3.218:4000/play/606"
     },
     {
         "name": "Думская ТВ (720p) [Not 24/7]",
@@ -11260,20 +9708,8 @@ export default [
         "url": "https://cdn1.live-tv.od.ua:8083/zdorovood/zdorovo/playlist.m3u8"
     },
     {
-        "name": "Интер (512p)",
-        "url": "http://109.68.40.67/img/inter_2/index.m3u8"
-    },
-    {
         "name": "К16 (Саров) (406p)",
         "url": "http://serv25.vintera.tv:8081/test/k16/playlist.m3u8"
-    },
-    {
-        "name": "Карусель",
-        "url": "http://91.185.3.218:4000/play/604"
-    },
-    {
-        "name": "ЛДПР ТВ (1080p)",
-        "url": "http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8"
     },
     {
         "name": "ЛитКлуб ТВ Проза (720p)",
@@ -11304,10 +9740,6 @@ export default [
         "url": "http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8"
     },
     {
-        "name": "Музыка Первого",
-        "url": "http://91.185.3.218:4000/play/608"
-    },
-    {
         "name": "Надежда (720p)",
         "url": "https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8"
     },
@@ -11336,10 +9768,6 @@ export default [
         "url": "https://cdn1.live-tv.od.ua:8083/1tvkr/1tvkr/playlist.m3u8"
     },
     {
-        "name": "Первый городской (Одесса) (1080p)",
-        "url": "http://91.194.79.46:8081/stream1/channel1/playlist.m3u8"
-    },
-    {
         "name": "Первый канал Евразия (396p)",
         "url": "http://stream.euroasia.lfstrm.tv/perviy_evrasia/1/index.m3u8"
     },
@@ -11354,10 +9782,6 @@ export default [
     {
         "name": "ПРНК (720p)",
         "url": "http://serv25.vintera.tv:8081/1pnk/1pnk/playlist.m3u8"
-    },
-    {
-        "name": "Прямий (720p)",
-        "url": "http://95.67.21.100/hls/prm_ua_hi/index.m3u8"
     },
     {
         "name": "Радио Говорит Москва (405p) [Not 24/7]",
@@ -11392,18 +9816,6 @@ export default [
         "url": "http://live-rostovpapa.cdnvideo.ru/rostovpapa/rostovpapa.sdp/playlist.m3u8"
     },
     {
-        "name": "Русский Север (Вологда) (1080p)",
-        "url": "http://185.186.142.16/streams.rs.m3u8"
-    },
-    {
-        "name": "Самара ГИС (1080p) [Not 24/7]",
-        "url": "http://45.67.57.9:8080/new/new/playlist.m3u8"
-    },
-    {
-        "name": "Сварожичи (720p)",
-        "url": "http://80.91.177.102:1935/live/live1/playlist.m3u8"
-    },
-    {
         "name": "СК 1 (720p)",
         "url": "https://cdn10.live-tv.od.ua:8083/sk1zt/sk1zt720p/playlist.m3u8"
     },
@@ -11418,10 +9830,6 @@ export default [
     {
         "name": "ТВ Экстра (720p)",
         "url": "http://live-1.otcnet.ru/tvextra720b/index.m3u8"
-    },
-    {
-        "name": "Телекафе",
-        "url": "http://91.185.3.218:4000/play/605"
     },
     {
         "name": "Тивиком (Улан-Удэ) (1080p)",
@@ -11456,10 +9864,6 @@ export default [
         "url": "http://serv24.vintera.tv:8081/test/h1_arm/index.m3u8"
     },
     {
-        "name": "ゴルフネットワーク",
-        "url": "http://203.162.235.41:16924"
-    },
-    {
         "name": "국악방송[1920*1080]",
         "url": "http://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8"
     },
@@ -11472,76 +9876,8 @@ export default [
         "url": "http://necgokr2-724.acs.wecandeo.com/ms/2528/724/index_1.m3u8"
     },
     {
-        "name": "소상공인방송",
-        "url": "http://139.150.248.29:1935/smartlive/558/91258ac21591769e21f41b96f26d883e/playlist.m3u8"
-    },
-    {
         "name": "여수MBC(MBC Yeosu)[1280*720]",
         "url": "https://5c3639aa99149.streamlock.net/live_TV/TV/playlist.m3u8"
-    },
-    {
-        "name": "제01회",
-        "url": "http://111.73.46.25:2100/20200707/bT1y7fgl/index.m3u8"
-    },
-    {
-        "name": "제02회",
-        "url": "http://111.73.46.25:2100/20200708/n79egHwL/index.m3u8"
-    },
-    {
-        "name": "제03회",
-        "url": "http://111.73.46.25:2100/20200713/bvCTnWcy/index.m3u8"
-    },
-    {
-        "name": "제04회",
-        "url": "http://111.73.46.25:2100/20200715/3rIBPv1K/index.m3u8"
-    },
-    {
-        "name": "제05회",
-        "url": "http://111.73.46.25:2100/20200721/Dxankjgz/index.m3u8"
-    },
-    {
-        "name": "제06회",
-        "url": "http://111.73.46.25:2100/20200722/ip0fxZdG/index.m3u8"
-    },
-    {
-        "name": "제07회",
-        "url": "http://111.73.46.25:2100/20200728/B5MwE4L6/index.m3u8"
-    },
-    {
-        "name": "제08회",
-        "url": "http://111.73.46.25:2100/20200729/uPt0a7MU/index.m3u8"
-    },
-    {
-        "name": "제09회",
-        "url": "http://111.73.46.25:2100/20200803/p5PlmzuM/index.m3u8"
-    },
-    {
-        "name": "제10회",
-        "url": "http://111.73.46.25:2100/20200805/HvjJ2tn2/index.m3u8"
-    },
-    {
-        "name": "제11회",
-        "url": "http://111.73.46.25:2100/20200811/09JpkHwt/index.m3u8"
-    },
-    {
-        "name": "제12회",
-        "url": "http://111.73.46.25:2100/20200812/Le7tH8T0/index.m3u8"
-    },
-    {
-        "name": "제13회",
-        "url": "http://111.73.46.25:2100/20200818/HqnFWmlC/index.m3u8"
-    },
-    {
-        "name": "제14회",
-        "url": "http://111.73.46.25:2100/20200818/AAlfHtRj/index.m3u8"
-    },
-    {
-        "name": "제15회",
-        "url": "http://111.73.46.25:2100/20200825/pRDe57h2/index.m3u8"
-    },
-    {
-        "name": "제16회",
-        "url": "http://111.73.46.25:2100/20200826/h765Amil/index.m3u8"
     },
     {
         "name": "万载综合",
@@ -11572,46 +9908,6 @@ export default [
         "url": "http://shbu.live.bestvcdn.com.cn:8080/live/program/live/hddfws/4000000/mnf.m3u8"
     },
     {
-        "name": "上海哈哈炫动[736*540]",
-        "url": "http://183.207.255.188/live/program/live/xdkt/1300000/mnf.m3u8"
-    },
-    {
-        "name": "上海外语",
-        "url": "http://183.207.255.188/live/program/live/wypdhd/4000000/mnf.m3u8"
-    },
-    {
-        "name": "上海影视",
-        "url": "http://183.207.255.188/live/program/live/dsjpdhd/4000000/mnf.m3u8"
-    },
-    {
-        "name": "上海新闻",
-        "url": "http://183.207.255.188/live/program/live/xwzhhd/4000000/mnf.m3u8"
-    },
-    {
-        "name": "上海法制",
-        "url": "http://183.207.255.188/live/program/live/fztd/1300000/mnf.m3u8"
-    },
-    {
-        "name": "上海生活",
-        "url": "http://183.207.255.188/live/program/live/shsshd/4000000/mnf.m3u8"
-    },
-    {
-        "name": "上海第一财经",
-        "url": "http://183.207.255.188/live/program/live/dycjhd/4000000/mnf.m3u8"
-    },
-    {
-        "name": "上海纪实",
-        "url": "http://183.207.255.188/live/program/live/jspdhd/4000000/mnf.m3u8"
-    },
-    {
-        "name": "上海财经",
-        "url": "http://183.207.255.188/live/program/live/dfcj/1300000/mnf.m3u8"
-    },
-    {
-        "name": "上海都市",
-        "url": "http://183.207.255.188/live/program/live/ylpdhd/4000000/mnf.m3u8"
-    },
-    {
         "name": "上饶公共",
         "url": "http://live.0793.tv/srtv2/sd/live.m3u8"
     },
@@ -11626,10 +9922,6 @@ export default [
     {
         "name": "东丰综合",
         "url": "http://stream5.jlntv.cn/df/sd/live.m3u8"
-    },
-    {
-        "name": "东方影视 (1080p)",
-        "url": "http://140.207.241.3:8080/live/program/live/dsjpdhd/4000000/mnf.m3u8"
     },
     {
         "name": "东森新闻 ",
@@ -11648,36 +9940,12 @@ export default [
         "url": "http://httpdvb.slave.nx96200.cn:13164/playurl?playtype=live&protocol=http&accesstoken=R5EDED88FU30990082K776ABB09I32F98767PBM323A1A7V0Z9C465W1616B8D311E6D9E9&programid=4200900069&playtoken=ABCDEFGHI"
     },
     {
-        "name": "中台湾生活网",
-        "url": "http://58.99.33.16:1935/liveedge17/live_853_3.stream/chunklist.m3u8"
-    },
-    {
-        "name": "中台湾生活网",
-        "url": "http://58.99.33.16:1935/liveedge17/live_854_3.stream/chunklist.m3u8"
-    },
-    {
-        "name": "中台湾生活网",
-        "url": "http://58.99.33.16:1935/liveedge17/live_020_3.stream/chunklist.m3u8"
-    },
-    {
-        "name": "中台湾生活网",
-        "url": "http://58.99.33.16:1935/liveedge17/live_852_3.stream/chunklist.m3u8"
-    },
-    {
         "name": "中国交通湖北",
         "url": "https://tv.lanjingfm.com/cctbn/hubei.m3u8"
     },
     {
         "name": "中国交通重庆",
         "url": "https://tv.lanjingfm.com/cctbn/chongqing.m3u8"
-    },
-    {
-        "name": "中国天气",
-        "url": "http://140.207.241.3:8080/live/program/live/zgqx/1300000/mnf.m3u8"
-    },
-    {
-        "name": "中国教育3台",
-        "url": "http://223.110.251.131:6610/gitv/live1/G_CETV-3/G_CETV-3/"
     },
     {
         "name": "中天新闻",
@@ -11752,24 +10020,12 @@ export default [
         "url": "https://devlivepull.migucloud.com/live/JT9JEQ54_C0_2.flv"
     },
     {
-        "name": "五星体育",
-        "url": "http://119.167.229.31/liveplay-kk.rtxapp.com/live/program/live/ssty/4000000/mnf.m3u8"
-    },
-    {
         "name": "亚洲ATV",
         "url": "https://juyunlive.juyun.tv/live/24950198.m3u8"
     },
     {
         "name": "亚洲新闻CNA",
         "url": "http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8"
-    },
-    {
-        "name": "亚洲旅游",
-        "url": "http://58.99.33.16:1935/liveedge17/live_172_3.stream/chunklist.m3u8"
-    },
-    {
-        "name": "伊利汉语综合",
-        "url": "http://110.153.180.106:55555/out_1/index.m3u8"
     },
     {
         "name": "俄罗斯HOBOC音乐台",
@@ -11782,10 +10038,6 @@ export default [
     {
         "name": "俄罗斯老电影",
         "url": "http://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/chunklist.m3u8"
-    },
-    {
-        "name": "全纪实 (1080p)",
-        "url": "http://183.207.255.190/live/program/live/qjshd/4000000/mnf.m3u8"
     },
     {
         "name": "六指琴魔",
@@ -11876,10 +10128,6 @@ export default [
         "url": "https://aplay.gztv.com/sec/shenghuos.m3u8"
     },
     {
-        "name": "博斯运动2",
-        "url": "http://58.99.33.16:1935/liveedge17/live_244_3.stream/chunklist.m3u8"
-    },
-    {
         "name": "原住民電視",
         "url": "http://streamipcf.akamaized.net/live/_definst_/live_720/key_b1500.m3u8"
     },
@@ -11930,18 +10178,6 @@ export default [
     {
         "name": "吴忠综合",
         "url": "http://live.kanwz.net/zhpd/sd/live.m3u8"
-    },
-    {
-        "name": "哈哈炫动",
-        "url": "http://112.25.48.13/live/program/live/hhxdhd/4000000/mnf.m3u8"
-    },
-    {
-        "name": "嘉兴-嘉善善文化",
-        "url": "http://118.31.110.219:1935/jsgdswh/myStream/playlist.m3u8"
-    },
-    {
-        "name": "嘉兴-嘉善综合",
-        "url": "http://118.31.110.219:1935/jsgdxwzh/myStream/playlist.m3u8"
     },
     {
         "name": "嘉兴-海宁生活",
@@ -12002,10 +10238,6 @@ export default [
     {
         "name": "固原公共频道",
         "url": "http://httpdvb.slave.nx96200.cn:13164/playurl?playtype=live&protocol=http&playtoken=ABCDEFGHI&accesstoken=R5ECA3A64U3191B163K776AAA45I98525ADEPBM3238581V0Z9C465W1611EBE7BE3AEBED&programid=4200900261.m3u8"
-    },
-    {
-        "name": "国内影院",
-        "url": "http://111.6.242.36/txpcdn.liveplay.egame.qq.com/live/3954_199681168.m3u8"
     },
     {
         "name": "基地别墅①",
@@ -12072,10 +10304,6 @@ export default [
         "url": "https://gcalic.v.myalicdn.com/gc/tjhh02_1/index.m3u8?contentid=2820180516001"
     },
     {
-        "name": "奥视卫星 (720p)",
-        "url": "http://61.244.22.5/ch3/ch3.live/playlist.m3u8"
-    },
-    {
         "name": "好消息电视台1",
         "url": "http://live-350k.streamingfast.net/hls-live/goodtv/_definst_/liveevent/live-ch1-1.m3u8"
     },
@@ -12086,10 +10314,6 @@ export default [
     {
         "name": "娄底 (720p)",
         "url": "http://mms.ldntv.cn:1935/live/_definst_/zonghe/chunklist_w67585331.m3u8"
-    },
-    {
-        "name": "娱乐",
-        "url": "http://125.210.152.21:9120/live/GQYL.m3u8"
     },
     {
         "name": "孝义频道",
@@ -12114,34 +10338,6 @@ export default [
     {
         "name": "宁波-鄞州二套",
         "url": "http://pili-publish.yzxw.newaircloud.com/newaircloud-yzxw/yzxw_20190925090936.m3u8"
-    },
-    {
-        "name": "安徽·合肥公共",
-        "url": "http://223.244.92.30:808/NlwQhy0/1000/live.m3u8"
-    },
-    {
-        "name": "安徽·合肥故事休闲",
-        "url": "http://223.244.92.30:808/52e58Sh/1000/live.m3u8"
-    },
-    {
-        "name": "安徽·合肥教育法制",
-        "url": "http://223.244.92.30:808/x91Hoz8/1000/live.m3u8"
-    },
-    {
-        "name": "安徽·合肥文体博览",
-        "url": "http://223.244.92.30:808/FgrhqyC/1000/live.m3u8"
-    },
-    {
-        "name": "安徽·合肥新闻",
-        "url": "http://223.244.92.30:808/2774goN/1000/live.m3u8"
-    },
-    {
-        "name": "安徽·合肥生活",
-        "url": "http://223.244.92.30:808/xcd72q7/1000/live.m3u8"
-    },
-    {
-        "name": "安徽·合肥财经",
-        "url": "http://223.244.92.30:808/8Fvh9ro/1000/live.m3u8"
     },
     {
         "name": "安徽·淮北公共",
@@ -12304,10 +10500,6 @@ export default [
         "url": "http://pili-live-hls.guangde.ahxmgk.com/guangde-live/guangde20200324143845.m3u8"
     },
     {
-        "name": "广西|忻城综合",
-        "url": "http://222.216.244.93:19355/xctv/ch2.m3u8"
-    },
-    {
         "name": "广西·南宁公共",
         "url": "http://hls.nntv.cn/nnlive/NNTV_PUB_A.m3u8"
     },
@@ -12444,14 +10636,6 @@ export default [
         "url": "https://jsylivealone302.iqilu.com/xintai/xintai_tv01.m3u8"
     },
     {
-        "name": "新视觉",
-        "url": "http://125.210.152.21:9120/live/XSJHD.m3u8"
-    },
-    {
-        "name": "新视觉台",
-        "url": "http://183.207.255.188/live/program/live/xsjhd/4000000/mnf.m3u8"
-    },
-    {
         "name": "新马 Ⅰ 亚洲新闻",
         "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_3.m3u8"
     },
@@ -12514,10 +10698,6 @@ export default [
     {
         "name": "普洱新闻综合",
         "url": "http://hwzbout.yunshicloud.com/701aec/orx377.m3u8"
-    },
-    {
-        "name": "智林体育台",
-        "url": "http://58.99.33.16:1935/liveedge17/live_122_3.stream/chunklist.m3u8"
     },
     {
         "name": "有線綜合娛樂台",
@@ -12920,10 +11100,6 @@ export default [
         "url": "http://hw-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
     },
     {
-        "name": "海豚综合",
-        "url": "http://58.99.33.16:1935/liveedge17/live_077_3.stream/chunklist.m3u8"
-    },
-    {
         "name": "深圳东部",
         "url": "http://liveplay.sznews.com/66_norecord_live/343.m3u8"
     },
@@ -13076,54 +11252,6 @@ export default [
         "url": "https://jsylivealone302.iqilu.com/bincheng/bincheng_tv01.m3u8"
     },
     {
-        "name": "滨海1",
-        "url": "http://60.30.52.41:80/live/bhtv1/chunklist_w454050834.m3u8"
-    },
-    {
-        "name": "滨海3",
-        "url": "http://60.30.52.41:80/live/bhtv3/chunklist_w55184333.m3u8"
-    },
-    {
-        "name": "澳視卫星",
-        "url": "http://61.244.22.5/ch3/ch3.live/chunklist_w30461384.m3u8"
-    },
-    {
-        "name": "澳视卫星",
-        "url": "http://61.244.22.4/ch3/ch3.live/index.m3u8"
-    },
-    {
-        "name": "澳视微影",
-        "url": "http://61.244.22.5/ch3/ch3.live/chunklist_w1228316132.m3u8"
-    },
-    {
-        "name": "澳视澳门",
-        "url": "http://61.244.22.5/ch1/_definst_/ch1.live/playlist.m3u8"
-    },
-    {
-        "name": "澳视澳门",
-        "url": "http://61.244.22.4/ch1/ch1.live/index.m3u8"
-    },
-    {
-        "name": "澳视澳门",
-        "url": "http://61.244.22.5/ch1/ch1.live/playelist.m3u8"
-    },
-    {
-        "name": "澳视综艺",
-        "url": "http://61.244.22.5/ch6/_definst_/hd_ch6.live/playlist.m3u8"
-    },
-    {
-        "name": "澳門微电影",
-        "url": "http://61.244.22.4/ch3/ch3.live/chunklist_w1228316132.m3u8"
-    },
-    {
-        "name": "澳门体育 (720p)",
-        "url": "http://61.244.22.4/ch4/sport_ch4.live/playelist.m3u8"
-    },
-    {
-        "name": "澳门卫星",
-        "url": "http://61.244.22.5/ch3/_definst_/ch3.live/playlist.m3u8"
-    },
-    {
         "name": "灵武文体频道",
         "url": "http://httpdvb.slave.nx96200.cn:13164/playurl?playtype=live&protocol=http&playtoken=ABCDEFGHI&accesstoken=R5ECA3A64U3191B163K776AAA45I98525ADEPBM3238581V0Z9C465W1611EBE7BE3AEBED&programid=4200900233.m3u8"
     },
@@ -13232,10 +11360,6 @@ export default [
         "url": "http://dyscdnali1.douyucdn.cn/live/4549169rv4OKGN7X.flv?uuid="
     },
     {
-        "name": "美丽人生",
-        "url": "http://58.99.33.16:1935/liveedge17/live_070_3.stream/chunklist.m3u8"
-    },
-    {
         "name": "美国中文电视 (406p)",
         "url": "https://jpts.sinovision.net/livestream.m3u8"
     },
@@ -13246,10 +11370,6 @@ export default [
     {
         "name": "美国购物QVC TV  UK",
         "url": "http://live.qvcuk.simplestreamcdn.com/live/qvcuk_main_clean/bitrate1.isml/3/prog_index.m3u8"
-    },
-    {
-        "name": "耀才財經台1",
-        "url": "http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000"
     },
     {
         "name": "聊城公共F",
@@ -13274,14 +11394,6 @@ export default [
     {
         "name": "華視新聞",
         "url": "http://seb.sason.top/sc/hsxw_fhd.m3u8"
-    },
-    {
-        "name": "蛇口",
-        "url": "http://218.17.99.211:5080/livestream/ttsw6ccn.flv"
-    },
-    {
-        "name": "蛇口",
-        "url": "http://218.17.99.211:82/hls/d4encs75.m3u8?checkedby:hlscat.comhttp://218.17.99.211:82/hls/d4encs75.m3u8"
     },
     {
         "name": "衢州-开化国家公园",
@@ -13314,14 +11426,6 @@ export default [
     {
         "name": "赛马直击",
         "url": "http://gslbmeiah.cdn.hk.chinamobile.com/livehls/MOB-HR/03.m3u8"
-    },
-    {
-        "name": "超级体育",
-        "url": "http://124.238.99.44:808/hls/329/index.m3u8"
-    },
-    {
-        "name": "越南ktv",
-        "url": "http://210.245.20.94/hls/ktv1.m3u8"
     },
     {
         "name": "越南和平HBTV",
@@ -13396,10 +11500,6 @@ export default [
         "url": "http://live.ynurl.com/video/s10041-JPTV/index.m3u8"
     },
     {
-        "name": "铜仁-石阡新闻",
-        "url": "http://58.16.204.36:9000/hls/main/playlist.m3u8"
-    },
-    {
         "name": "长沙影视频道",
         "url": "http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_350.flv?auth_key=1936694127-0-0-f081dadf4de8780d84d51755eb65e516"
     },
@@ -13426,10 +11526,6 @@ export default [
     {
         "name": "阳江2",
         "url": "https://live.yjtvw.com:8081/live/smil:yjtv2.smil/chunklist_b3628000.m3u8"
-    },
-    {
-        "name": "阿里郎電視",
-        "url": "http://58.99.33.16:1935/liveedge17/live_158_3.stream/chunklist.m3u8"
     },
     {
         "name": "陇川综合",
@@ -13500,14 +11596,6 @@ export default [
         "url": "http://ebsonairios.ebs.co.kr/ebs2tablet500k/tablet500k/ebs2tablet500k.index.m3u8"
     },
     {
-        "name": "韩国·SBS CJB",
-        "url": "http://1.222.207.80:1935/live/cjbtv/chunklist_w1357270949.m3u8"
-    },
-    {
-        "name": "韩国·TBS",
-        "url": "http://58.234.158.60:1935/catvlive/myStream/playlist.m3u8"
-    },
-    {
         "name": "韩国CGNTV",
         "url": "http://cgntv-glive.ofsdelivery.net/live/_definst_/cgntv_kr02/chunklist_w1696035882.m3u8"
     },
@@ -13534,10 +11622,6 @@ export default [
     {
         "name": "马来西亚MY FM音乐台",
         "url": "http://astro1.rastream.com/myfm"
-    },
-    {
-        "name": "魅力足球",
-        "url": "http://183.207.255.188/live/program/live/mlyyhd/4000000/mnf.m3u8"
     },
     {
         "name": "麻栗坡频道",
@@ -13592,24 +11676,8 @@ export default [
         "url": "http://dyscdnali1.douyucdn.cn/live/3928r9p0BHMDG.flv?uuid="
     },
     {
-        "name": "五星体育",
-        "url": "http://140.207.241.2:8080/live/program/live/ssty/4000000/mnf.m3u8"
-    },
-    {
-        "name": "魅力足球",
-        "url": "http://140.207.241.2:8080/live/program/live/mlyyhd/4000000/mnf.m3u8"
-    },
-    {
         "name": "CCTV-5体育 (1080p)",
         "url": "http://ott.js.chinamobile.com/PLTV/3/224/3221227166/index.m3u8"
-    },
-    {
-        "name": "东南卫视 (1080p)",
-        "url": "http://223.110.254.205:6610/cntv/live1/n-dongnanstv/n-dongnanstv/1.m3u8"
-    },
-    {
-        "name": "东方卫视 (1080p)",
-        "url": "http://223.110.254.212:6610/cntv/live1/HD-2500k-1080P-dongfangstv/HD-2500k-1080P-dongfangstv/1.m3u8"
     },
     {
         "name": "东方卫视 (1080p)",
@@ -13660,28 +11728,12 @@ export default [
         "url": "http://m3u8.channellive.dzxw.net/cms/videos/nmip-media/channellive/channel36/playlist.m3u8"
     },
     {
-        "name": "增城綜合 (1080p)",
-        "url": "http://202.168.164.38:8083/videos/live/19/27/QEQXMtU5AUpwo/QEQXMtU5AUpwo.m3u8"
-    },
-    {
         "name": "孟州电视台 (1080p) [Not 24/7]",
         "url": "http://live.dxhmt.cn:9081/tv/10883-1.m3u8"
     },
     {
-        "name": "安徽卫视 (1080p)",
-        "url": "http://223.110.254.203:6610/cntv/live1/HD-8000k-1080P-anhuistv/HD-8000k-1080P-anhuistv/1.m3u8"
-    },
-    {
-        "name": "山东卫视 (1080p)",
-        "url": "http://223.110.254.207:6610/cntv/live1/HD-2500k-1080P-shandongstv/HD-2500k-1080P-shandongstv/1.m3u8"
-    },
-    {
         "name": "山东卫视 (1080p)",
         "url": "http://ott.js.chinamobile.com/PLTV/3/224/3221227258/index.m3u8"
-    },
-    {
-        "name": "广东卫视 (1080p)",
-        "url": "http://223.110.254.195:6610/cntv/live1/HD-2500k-1080P-guangdongstv/HD-2500k-1080P-guangdongstv/1.m3u8"
     },
     {
         "name": "建安电视台 (1080p) [Not 24/7]",
@@ -13700,14 +11752,6 @@ export default [
         "url": "http://live.dxhmt.cn:9081/tv/10184-1.m3u8"
     },
     {
-        "name": "江西卫视 (1080p)",
-        "url": "http://223.110.254.199:6610/cntv/live1/jiangxistv/jiangxistv/1.m3u8"
-    },
-    {
-        "name": "浙江卫视 (1080p)",
-        "url": "http://223.110.254.210:6610/cntv/live1/zhejiangstv/zhejiangstv/1.m3u8"
-    },
-    {
         "name": "浙江卫视 (1080p)",
         "url": "http://ott.js.chinamobile.com/PLTV/3/224/3221227393/index.m3u8"
     },
@@ -13721,10 +11765,6 @@ export default [
     },
     {
         "name": "湖北卫视 (1080p)",
-        "url": "http://223.110.254.136:6610/cntv/live1/HD-2500k-1080P-hubeistv/HD-2500k-1080P-hubeistv/1.m3u8"
-    },
-    {
-        "name": "湖北卫视 (1080p)",
         "url": "http://ott.js.chinamobile.com/PLTV/3/224/3221227377/index.m3u8"
     },
     {
@@ -13732,20 +11772,8 @@ export default [
         "url": "http://ott.js.chinamobile.com/PLTV/3/224/3221227565/index.m3u8"
     },
     {
-        "name": "湖南卫视 (1080p)",
-        "url": "http://223.110.254.134:6610/cntv/live1/hunanstv/hunanstv/1.m3u8"
-    },
-    {
-        "name": "澳视澳门 (720p) [Not 24/7]",
-        "url": "http://61.244.22.4/ch1/ch1.live/playelist.m3u8"
-    },
-    {
         "name": "犍为新闻综合 (720p) [Not 24/7]",
         "url": "http://tv.scwlqw.cn:3100/hls/kqcyufpi/index.m3u8"
-    },
-    {
-        "name": "娄底综合 (720p)",
-        "url": "http://119.39.242.52:1935/live/zonghe/playlist.m3u8"
     },
     {
         "name": "娄底综合 (720p) [Not 24/7]",
@@ -13760,44 +11788,16 @@ export default [
         "url": "http://www.pxitv.com:8099/hls-live/livepkgr/_definst_/pxitvevent/pxtv3stream.m3u8"
     },
     {
-        "name": "重庆卫视 (1080p)",
-        "url": "http://223.110.254.137:6610/cntv/live1/HD-8000k-1080P-chongqingstv/HD-8000k-1080P-chongqingstv/1.m3u8"
-    },
-    {
         "name": "金昌公共頻道 (240p) [Geo-blocked]",
         "url": "http://stream4.liveyun.hoge.cn/ch01/sd/live.m3u8"
-    },
-    {
-        "name": "靖江新闻綜合 (720p) [Not 24/7]",
-        "url": "http://58.222.151.43:1935/live/xwzhpc/playlist.m3u8"
     },
     {
         "name": "黑龙江 (1080p)",
         "url": "http://ott.js.chinamobile.com/PLTV/3/224/3221227252/index.m3u8"
     },
     {
-        "name": "黑龙江卫视 (1080p)",
-        "url": "http://223.110.254.143:6610/cntv/live1/HD-8000k-1080P-heilongjiangstv/HD-8000k-1080P-heilongjiangstv/1.m3u8"
-    },
-    {
         "name": "内江综合 (720p)",
         "url": "http://njzb.scnj.tv:90/live/xwzh_xwzh800.m3u8"
-    },
-    {
-        "name": "KCTV 광주 CH05[1280*720]",
-        "url": "http://119.77.96.184:1935/chn05/chn05/chunklist_w644291506.m3u8"
-    },
-    {
-        "name": "澳视葡文 (720p)",
-        "url": "http://61.244.22.4/ch2/ch2.live/chunklist_w1632175875.m3u8"
-    },
-    {
-        "name": "澳门2 (720p) [Not 24/7]",
-        "url": "http://61.244.22.4/ch2/ch2.live/playelist.m3u8"
-    },
-    {
-        "name": "華藏衛視 (1080p) [Not 24/7]",
-        "url": "http://118.163.88.61:1935/hwazanlivetv/live.stream/playlist.m3u8"
     },
     {
         "name": "云南 Ⅰ 文山综合台 (1080p) [Not 24/7]",
@@ -13816,24 +11816,8 @@ export default [
         "url": "http://iptv.tvfix.org/hls/tvbxh.m3u8"
     },
     {
-        "name": "4K CESHI",
-        "url": "http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228113/index.m3u8"
-    },
-    {
-        "name": "5G购 2M1080",
-        "url": "http://223.110.235.3/ott.js.chinamobile.com/PLTV/3/224/3221227896/index.m3u8"
-    },
-    {
         "name": "J2",
         "url": "http://iptv.tvfix.org/hls/j2.m3u8"
-    },
-    {
-        "name": "凤凰中文",
-        "url": "http://223.110.235.3/ott.js.chinamobile.com/PLTV/3/224/3221228057/index.m3u8"
-    },
-    {
-        "name": "凤凰香港",
-        "url": "http://223.110.236.2/ott.js.chinamobile.com/PLTV/3/224/3221228060/index.m3u8"
     },
     {
         "name": "美亚电影台国语",
@@ -13872,268 +11856,8 @@ export default [
         "url": "https://api.leonardpark.dev/live/icable/110"
     },
     {
-        "name": "NewTV炫舞未来 4M1080",
-        "url": "http://183.207.249.229/ott.js.chinamobile.com/PLTV/3/224/3221227475/index.m3u8"
-    },
-    {
-        "name": "NewTV爱情喜剧 4M1080",
-        "url": "http://223.110.243.154/ott.js.chinamobile.com/PLTV/3/224/3221227548/index.m3u8"
-    },
-    {
-        "name": "NewTV精品体育 4M1080",
-        "url": "http://223.110.243.154/ott.js.chinamobile.com/PLTV/3/224/3221227615/index.m3u8"
-    },
-    {
-        "name": "NewTV精品大剧 4M1080",
-        "url": "http://223.110.243.151/ott.js.chinamobile.com/PLTV/3/224/3221227618/index.m3u8"
-    },
-    {
-        "name": "NewTV精品纪录 4M1080",
-        "url": "http://223.110.243.162/ott.js.chinamobile.com/PLTV/3/224/3221227547/index.m3u8"
-    },
-    {
-        "name": "NewTV金牌综艺 4M1080",
-        "url": "http://223.110.243.157/ott.js.chinamobile.com/PLTV/3/224/3221227541/index.m3u8"
-    },
-    {
-        "name": "SiTV都市剧场",
-        "url": "http://223.110.243.160/ott.js.chinamobile.com/PLTV/3/224/3221227710/index.m3u8"
-    },
-    {
         "name": "三立都会台",
         "url": "https://setlive-lh.akamaihd.net/i/setmetro_1@132201/index_1080_av-b.m3u8?sd=10&rebase=on"
-    },
-    {
-        "name": "仪化有线 3M1080",
-        "url": "http://223.110.243.158/ott.js.chinamobile.com/PLTV/3/224/3221227702/index.m3u8"
-    },
-    {
-        "name": "凤凰资讯",
-        "url": "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8"
-    },
-    {
-        "name": "北京冬奥纪实 8M1080",
-        "url": "http://183.207.249.207/ott.js.chinamobile.com/PLTV/3/224/3221227699/index.m3u8"
-    },
-    {
-        "name": "北京纪实",
-        "url": "http://223.110.243.141/ott.js.chinamobile.com/PLTV/3/224/3221227711/index.m3u8"
-    },
-    {
-        "name": "央广购物 2.5M1080",
-        "url": "http://223.110.243.151/ott.js.chinamobile.com/PLTV/3/224/3221227532/index.m3u8"
-    },
-    {
-        "name": "江苏好享购物 4M1080",
-        "url": "http://223.110.243.165/ott.js.chinamobile.com/PLTV/3/224/3221227570/index.m3u8"
-    },
-    {
-        "name": "江西风尚购物 4M1080",
-        "url": "http://223.110.243.151/ott.js.chinamobile.com/PLTV/3/224/3221227539/index.m3u8"
-    },
-    {
-        "name": "睢宁生活教育 2.5M1080",
-        "url": "http://223.110.243.151/ott.js.chinamobile.com/PLTV/3/224/3221227701/index.m3u8"
-    },
-    {
-        "name": "睢宁资讯 2.5M1080",
-        "url": "http://223.110.243.154/ott.js.chinamobile.com/PLTV/3/224/3221227712/index.m3u8"
-    },
-    {
-        "name": "CCTV-2财经 (1080p)",
-        "url": "http://223.110.245.170/PLTV/3/224/3221227207/index.m3u8"
-    },
-    {
-        "name": "CCTV-3综艺 (1080p)",
-        "url": "http://183.207.249.5/PLTV/3/224/3221225588/index.m3u8"
-    },
-    {
-        "name": "CCTV-3综艺 (1080p)",
-        "url": "http://183.207.249.6/PLTV/3/224/3221225588/index.m3u8"
-    },
-    {
-        "name": "CCTV-3综艺 (1080p)",
-        "url": "http://183.207.249.14/PLTV/3/224/3221225588/index.m3u8"
-    },
-    {
-        "name": "CCTV-3综艺 (1080p)",
-        "url": "http://183.207.249.35/PLTV/4/224/3221227295/index.m3u8"
-    },
-    {
-        "name": "CCTV-4中文国际 (1080p)",
-        "url": "http://183.207.249.6/PLTV/3/224/3221225534/index.m3u8"
-    },
-    {
-        "name": "CCTV-4中文国际 (1080p)",
-        "url": "http://183.207.249.11/PLTV/3/224/3221225534/index.m3u8"
-    },
-    {
-        "name": "CCTV-4中文国际 (1080p)",
-        "url": "http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221225534/index.m3u8"
-    },
-    {
-        "name": "CCTV-5体育 (1080p)",
-        "url": "http://183.207.249.35/PLTV/4/224/3221227381/index.m3u8"
-    },
-    {
-        "name": "CCTV-5体育 (1080p)",
-        "url": "http://223.110.243.137/PLTV/3/224/3221227478/index.m3u8"
-    },
-    {
-        "name": "CCTV-5体育 (1080p)",
-        "url": "http://223.110.243.172/PLTV/3/224/3221227166/index.m3u8"
-    },
-    {
-        "name": "CCTV-5体育 (1080p)",
-        "url": "http://223.110.245.136/PLTV/3/224/3221227166/index.m3u8"
-    },
-    {
-        "name": "CCTV-5体育 (1080p)",
-        "url": "http://223.110.245.139/PLTV/4/224/3221227298/index.m3u8"
-    },
-    {
-        "name": "CCTV-5体育 (1080p)",
-        "url": "http://223.110.245.170/PLTV/3/224/3221227166/index.m3u8"
-    },
-    {
-        "name": "CCTV-5体育 (1080p)",
-        "url": "http://223.110.245.172/PLTV/4/224/3221227298/index.m3u8"
-    },
-    {
-        "name": "CCTV-6电影 (1080p)",
-        "url": "http://223.110.245.139/ott.js.chinamobile.com/PLTV/3/224/3221227209/index.m3u8"
-    },
-    {
-        "name": "CCTV-6电影 (1080p)",
-        "url": "http://223.110.245.172/PLTV/3/224/3221225548/index.m3u8"
-    },
-    {
-        "name": "CCTV-6电影 (1080p)",
-        "url": "http://223.110.245.173/PLTV/3/224/3221225548/index.m3u8"
-    },
-    {
-        "name": "CCTV-7国防军事 (1080p)",
-        "url": "http://183.207.248.10/PLTV/3/224/3221225546/index.m3u8"
-    },
-    {
-        "name": "CCTV-7国防军事 (1080p)",
-        "url": "http://183.207.249.9/PLTV/3/224/3221225546/index.m3u8"
-    },
-    {
-        "name": "CCTV-7国防军事 (1080p)",
-        "url": "http://183.207.249.15/PLTV/3/224/3221225546/index.m3u8"
-    },
-    {
-        "name": "CCTV-7国防军事 (1080p)",
-        "url": "http://183.207.249.36/PLTV/4/224/3221227314/index.m3u8"
-    },
-    {
-        "name": "CCTV-8电视剧 (1080p)",
-        "url": "http://183.207.248.12/PLTV/3/224/3221227204/index.m3u8"
-    },
-    {
-        "name": "CCTV-8电视剧 (1080p)",
-        "url": "http://183.207.248.35/PLTV/3/224/3221227205/index.m3u8"
-    },
-    {
-        "name": "CCTV-8电视剧 (1080p)",
-        "url": "http://223.110.243.171/PLTV/3/224/3221227204/index.m3u8"
-    },
-    {
-        "name": "CCTV-8电视剧 (1080p)",
-        "url": "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221227204/index.m3u8"
-    },
-    {
-        "name": "CCTV-8电视剧 (1080p)",
-        "url": "http://223.110.245.170/PLTV/3/224/3221227204/index.m3u8"
-    },
-    {
-        "name": "CCTV-8电视剧 (1080p)",
-        "url": "http://223.110.245.170/PLTV/3/224/3221227205/index.m3u8"
-    },
-    {
-        "name": "CCTV-8电视剧 (1080p)",
-        "url": "http://223.110.245.172/PLTV/4/224/3221227304/index.m3u8"
-    },
-    {
-        "name": "CCTV-10科教 (1080p)",
-        "url": "http://223.110.245.163/ott.js.chinamobile.com/PLTV/3/224/3221227317/index.m3u8"
-    },
-    {
-        "name": "CCTV-10科教 (1080p)",
-        "url": "http://223.110.245.170/PLTV/3/224/3221225550/index.m3u8"
-    },
-    {
-        "name": "CCTV-11戏曲 (1080p)",
-        "url": "http://223.110.245.169/PLTV/4/224/3221227384/index.m3u8"
-    },
-    {
-        "name": "CCTV-12社会与法制 (1080p)",
-        "url": "http://183.207.249.7/PLTV/3/224/3221225556/index.m3u8"
-    },
-    {
-        "name": "CCTV-12社会与法制 (1080p)",
-        "url": "http://223.110.245.163/ott.js.chinamobile.com/PLTV/3/224/3221225556/index.m3u8"
-    },
-    {
-        "name": "CCTV-12社会与法制 (1080p)",
-        "url": "http://223.110.245.170/PLTV/3/224/3221225556/index.m3u8"
-    },
-    {
-        "name": "CCTV-12社会与法制 (1080p)",
-        "url": "http://223.110.245.172/PLTV/3/224/3221225556/index.m3u8"
-    },
-    {
-        "name": "CCTV-13新闻 (1080p)",
-        "url": "http://183.207.249.14/PLTV/3/224/3221225560/index.m3u8"
-    },
-    {
-        "name": "CCTV-13新闻 (1080p)",
-        "url": "http://183.207.249.36/PLTV/4/224/3221227387/index.m3u8"
-    },
-    {
-        "name": "CCTV-13新闻 (1080p) [Not 24/7]",
-        "url": "http://223.110.245.170/PLTV/3/224/3221225560/index.m3u8"
-    },
-    {
-        "name": "CNC中文 (720p) [Not 24/7]",
-        "url": "http://source07.v.news.cn/live/CNC_CN/playlist.m3u8"
-    },
-    {
-        "name": "CNC英语 (720p)",
-        "url": "http://source07.v.news.cn/live/CNC_EN/playlist.m3u8"
-    },
-    {
-        "name": "NewTV动画王国 (1080p)",
-        "url": "http://183.207.249.15/PLTV/3/224/3221225555/index.m3u8"
-    },
-    {
-        "name": "NewTV动画王国 (1080p)",
-        "url": "http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221225555/index.m3u8"
-    },
-    {
-        "name": "NewTV完美遊戲 (1080p)",
-        "url": "http://183.207.249.16/PLTV/3/224/3221225539/index.m3u8"
-    },
-    {
-        "name": "NewTV搏击 (720p)",
-        "url": "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221226803/index.m3u8"
-    },
-    {
-        "name": "上海这一刻魔都眼 (720p)",
-        "url": "http://bililive.kksmg.com/hls/sdi80/playlist.m3u8"
-    },
-    {
-        "name": "东方卫视 (1080p)",
-        "url": "http://183.207.249.7/PLTV/4/224/3221227396/index.m3u8"
-    },
-    {
-        "name": "东方卫视 (1080p) [Not 24/7]",
-        "url": "http://223.110.243.138/ott.js.chinamobile.com/PLTV/3/224/3221227208/index.m3u8"
-    },
-    {
-        "name": "东方卫视 (1080p) [Not 24/7]",
-        "url": "http://223.110.243.138/PLTV/3/224/3221227208/index.m3u8"
     },
     {
         "name": "乐清新闻 [Geo-blocked]",
@@ -14148,72 +11872,16 @@ export default [
         "url": "http://file.hhtv.cc/cms/videos/nmip-media/channellive/channel1/playlist.m3u8"
     },
     {
-        "name": "五星体育 (720p)",
-        "url": "http://223.110.245.147/ott.js.chinamobile.com/PLTV/3/224/3221226799/index.m3u8"
-    },
-    {
         "name": "农安新闻综合 [Geo-blocked]",
         "url": "http://stream2.jlntv.cn/naxw/sd/live.m3u8"
-    },
-    {
-        "name": "凤凰中文 (720p)",
-        "url": "http://223.110.245.139/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8"
-    },
-    {
-        "name": "凤凰中文 (720p)",
-        "url": "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226922/index.m3u8"
-    },
-    {
-        "name": "凤凰资讯 (720p)",
-        "url": "http://183.207.249.35/PLTV/3/224/3221226923/index.m3u8"
-    },
-    {
-        "name": "凤凰资讯 (720p)",
-        "url": "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226923/index.m3u8"
-    },
-    {
-        "name": "凤凰香港 (720p)",
-        "url": "http://183.207.249.35/PLTV/3/224/3221226975/index.m3u8"
-    },
-    {
-        "name": "凤凰香港 (720p)",
-        "url": "http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8"
     },
     {
         "name": "前郭综合 [Geo-blocked]",
         "url": "http://stream2.jlntv.cn/qg/sd/live.m3u8"
     },
     {
-        "name": "北京卫视 (1080p)",
-        "url": "http://183.207.249.7/PLTV/3/224/3221225574/index.m3u8"
-    },
-    {
-        "name": "北京卫视 (1080p)",
-        "url": "http://223.110.243.173/PLTV/3/224/3221227246/index.m3u8"
-    },
-    {
-        "name": "北京卫视 (1080p)",
-        "url": "http://223.110.245.139/PLTV/4/224/3221227390/index.m3u8"
-    },
-    {
-        "name": "北京卫视 (1080p)",
-        "url": "http://223.110.245.153/ott.js.chinamobile.com/PLTV/3/224/3221225574/index.m3u8"
-    },
-    {
-        "name": "北京卫视 (1080p)",
-        "url": "http://223.110.245.163/ott.js.chinamobile.com/PLTV/3/224/3221227436/index.m3u8"
-    },
-    {
-        "name": "北京卫视 (1080p)",
-        "url": "http://223.110.245.173/PLTV/4/224/3221227390/index.m3u8"
-    },
-    {
         "name": "北京卫视 [Not 24/7]",
         "url": "http://ivi.bupt.edu.cn/hls/btv1.m3u8"
-    },
-    {
-        "name": "北京衛視 (1080p) [Geo-blocked]",
-        "url": "http://14.152.88.77/liveplay-kk.rtxapp.com/live/program/live/bjwshd/4000000/mnf.m3u8"
     },
     {
         "name": "北京财经 [Not 24/7]",
@@ -14292,30 +11960,6 @@ export default [
         "url": "http://yunshangdawu.live.tempsource.cjyun.org/videotmp/s10129-dwzhpd.m3u8"
     },
     {
-        "name": "天津卫视 (1080p)",
-        "url": "http://223.110.243.170/PLTV/3/224/3221227212/index.m3u8"
-    },
-    {
-        "name": "天津卫视 (1080p)",
-        "url": "http://223.110.245.155/ott.js.chinamobile.com/PLTV/3/224/3221227382/index.m3u8"
-    },
-    {
-        "name": "天津卫视 (1080p)",
-        "url": "http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221227407/index.m3u8"
-    },
-    {
-        "name": "天津卫视 (1080p)",
-        "url": "http://223.110.245.170/PLTV/3/224/3221227212/index.m3u8"
-    },
-    {
-        "name": "安徽卫视 (1080p)",
-        "url": "http://183.207.249.15/PLTV/3/224/3221225634/index.m3u8"
-    },
-    {
-        "name": "安徽卫视 (1080p)",
-        "url": "http://223.110.245.147/ott.js.chinamobile.com/PLTV/3/224/3221225634/index.m3u8"
-    },
-    {
         "name": "安徽小说评书广播 [Geo-blocked]",
         "url": "http://stream1.ahrtv.cn/xspsgb/sd/live.m3u8"
     },
@@ -14340,14 +11984,6 @@ export default [
         "url": "http://livealone302.iqilu.com/iqilu/nkpd.m3u8"
     },
     {
-        "name": "山东卫视 (1080p)",
-        "url": "http://223.110.243.171/PLTV/3/224/3221227258/index.m3u8"
-    },
-    {
-        "name": "山东卫视 (1080p)",
-        "url": "http://223.110.245.139/PLTV/4/224/3221227448/index.m3u8"
-    },
-    {
         "name": "山东新闻 (1080p) [Geo-blocked]",
         "url": "http://livealone302.iqilu.com/iqilu/ggpd.m3u8"
     },
@@ -14358,18 +11994,6 @@ export default [
     {
         "name": "山东齐鲁 (1080p) [Geo-blocked]",
         "url": "http://livealone302.iqilu.com/iqilu/qlpd.m3u8"
-    },
-    {
-        "name": "广东卫视 (1080p)",
-        "url": "http://223.110.243.136/PLTV/3/224/3221227249/index.m3u8"
-    },
-    {
-        "name": "广东卫视 (1080p)",
-        "url": "http://223.110.245.170/PLTV/3/224/3221227249/index.m3u8"
-    },
-    {
-        "name": "广东卫视 (1080p)",
-        "url": "http://223.110.245.172/PLTV/4/224/3221227399/index.m3u8"
     },
     {
         "name": "广州影视 (720p) [Not 24/7]",
@@ -14394,38 +12018,6 @@ export default [
     {
         "name": "延边新闻综合 [Geo-blocked]",
         "url": "http://stream2.jlntv.cn/jlyb/sd/live.m3u8"
-    },
-    {
-        "name": "徐州-1 (1080p)",
-        "url": "http://183.207.249.15/PLTV/3/224/3221225945/index.m3u8"
-    },
-    {
-        "name": "徐州-3 (1080p)",
-        "url": "http://183.207.249.7/PLTV/3/224/3221225949/index.m3u8"
-    },
-    {
-        "name": "徐州-3 (1080p)",
-        "url": "http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225949/index.m3u8"
-    },
-    {
-        "name": "徐州-4 (1080p)",
-        "url": "http://183.207.249.15/PLTV/3/224/3221225951/index.m3u8"
-    },
-    {
-        "name": "徐州公共頻道 (1080p)",
-        "url": "http://183.207.248.11/PLTV/3/224/3221225951/index.m3u8"
-    },
-    {
-        "name": "徐州新聞綜合 (1080p)",
-        "url": "http://183.207.248.11/PLTV/3/224/3221225945/index.m3u8"
-    },
-    {
-        "name": "徐州新聞綜合 (1080p)",
-        "url": "http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221225945/index.m3u8"
-    },
-    {
-        "name": "徐州經濟生活 (1080p)",
-        "url": "http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221225947/index.m3u8"
     },
     {
         "name": "惠州新闻综合 (1080p)",
@@ -14456,92 +12048,12 @@ export default [
         "url": "http://stream2.jlntv.cn/sytv/sd/live.m3u8"
     },
     {
-        "name": "江苏卫视 (1080p)",
-        "url": "http://183.207.249.34/PLTV/4/224/3221227402/index.m3u8"
-    },
-    {
-        "name": "江苏卫视 (1080p)",
-        "url": "http://223.110.245.170/PLTV/3/224/3221227255/index.m3u8"
-    },
-    {
-        "name": "江西卫视 (1080p)",
-        "url": "http://183.207.249.11/PLTV/3/224/3221225536/index.m3u8"
-    },
-    {
-        "name": "浙江卫视 (1080p)",
-        "url": "http://183.207.249.34/PLTV/4/224/3221227393/index.m3u8"
-    },
-    {
-        "name": "浙江卫视 (1080p)",
-        "url": "http://223.110.243.173/PLTV/3/224/3221227215/index.m3u8"
-    },
-    {
-        "name": "浙江卫视 (1080p)",
-        "url": "http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221227393/index.m3u8"
-    },
-    {
-        "name": "深圳卫视 (1080p)",
-        "url": "http://183.207.249.37/PLTV/4/224/3221227307/index.m3u8"
-    },
-    {
-        "name": "深圳卫视 (1080p)",
-        "url": "http://223.110.243.171/PLTV/3/224/3221227217/index.m3u8"
-    },
-    {
-        "name": "深圳卫视 (1080p)",
-        "url": "http://223.110.245.139/PLTV/4/224/3221227307/index.m3u8"
-    },
-    {
-        "name": "湖北 Ⅰ 荆门公共台 (1080p) [Geo-blocked]",
-        "url": "http://jingmen.live.cjyun.org/video/s10101-jmggpd.m3u8"
-    },
-    {
-        "name": "湖北卫视 (1080p)",
-        "url": "http://223.110.243.171/PLTV/3/224/3221227211/index.m3u8"
-    },
-    {
-        "name": "湖北卫视 (1080p)",
-        "url": "http://223.110.245.153/ott.js.chinamobile.com/PLTV/3/224/3221227211/index.m3u8"
-    },
-    {
-        "name": "湖北卫视 (1080p)",
-        "url": "http://223.110.245.170/PLTV/3/224/3221227211/index.m3u8"
-    },
-    {
-        "name": "湖南卫视 (1080p)",
-        "url": "http://223.110.243.173/PLTV/3/224/3221227220/index.m3u8"
-    },
-    {
-        "name": "湖南卫视 (1080p)",
-        "url": "http://223.110.245.139/PLTV/4/224/3221227404/index.m3u8"
-    },
-    {
-        "name": "湖南卫视 (1080p)",
-        "url": "http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221227191/index.m3u8"
-    },
-    {
-        "name": "湖南卫视 (1080p)",
-        "url": "http://223.110.245.168/PLTV/4/224/3221227320/index.m3u8"
-    },
-    {
-        "name": "湖南卫视 (1080p)",
-        "url": "http://223.110.245.170/PLTV/3/224/3221227191/index.m3u8"
-    },
-    {
         "name": "白城新闻综合 [Geo-blocked]",
         "url": "http://stream2.jlntv.cn/baicheng1/sd/live.m3u8"
     },
     {
         "name": "白山新闻综合 [Geo-blocked]",
         "url": "http://stream2.jlntv.cn/baishan1/sd/live.m3u8"
-    },
-    {
-        "name": "耀才财经",
-        "url": "http://202.69.67.66/webcast/bshdlive-pc/playlist.m3u8"
-    },
-    {
-        "name": "辽宁卫视 (1080p)",
-        "url": "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221227410/index.m3u8"
     },
     {
         "name": "辽源新闻综合 [Geo-blocked]",
@@ -14552,36 +12064,8 @@ export default [
         "url": "http://stream2.jlntv.cn/tonghua1/sd/live.m3u8"
     },
     {
-        "name": "长乐综合 [Geo-blocked]",
-        "url": "http://35908.hlsplay.aodianyun.com/guangdianyun_35908/tv_channel_327.m3u8"
-    },
-    {
         "name": "长春综合 [Geo-blocked]",
         "url": "http://stream2.jlntv.cn/jlcc/sd/live.m3u8"
-    },
-    {
-        "name": "长沙地铁移动 [Geo-blocked]",
-        "url": "http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_356.m3u8"
-    },
-    {
-        "name": "长沙女性 [Geo-blocked]",
-        "url": "http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_349.m3u8"
-    },
-    {
-        "name": "长沙政法 [Geo-blocked]",
-        "url": "http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_348.m3u8"
-    },
-    {
-        "name": "长沙新闻 [Geo-blocked]",
-        "url": "http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8"
-    },
-    {
-        "name": "长沙经贸 [Geo-blocked]",
-        "url": "http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_350.m3u8"
-    },
-    {
-        "name": "长沙购物 [Geo-blocked]",
-        "url": "http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_354.m3u8"
     },
     {
         "name": "集安综合 [Geo-blocked]",
@@ -14591,24 +12075,4 @@ export default [
         "name": "鹤峰综合 [Geo-blocked]",
         "url": "http://hefeng.live.tempsource.cjyun.org/videotmp/s10100-hftv.m3u8"
     },
-    {
-        "name": "黑龙卫视 (1080p)",
-        "url": "http://223.110.243.169/PLTV/3/224/3221227252/index.m3u8"
-    },
-    {
-        "name": "黑龙卫视 (1080p)",
-        "url": "http://223.110.245.139/PLTV/4/224/3221227492/index.m3u8"
-    },
-    {
-        "name": "黑龙卫视 (1080p)",
-        "url": "http://223.110.245.170/PLTV/3/224/3221227252/index.m3u8"
-    },
-    {
-        "name": "黑龙江 (1080p)",
-        "url": "http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227492/index.m3u8"
-    },
-    {
-        "name": "黑龙江卫视 (1080p)",
-        "url": "http://183.207.249.36/PLTV/4/224/3221227323/index.m3u8"
-    }
 ]

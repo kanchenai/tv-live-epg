@@ -1,7 +1,6 @@
 import Page from "@core/frame/page/Page";
 import html from "@html/home.html"
 import {Adapter} from "@core/frame/view/group/RecycleView";
-import channel_data from "@src/mock-data/channel_data";
 import VideoPlayer from "@core/frame/player/VideoPlayer";
 import {ScrollCenter} from "@core/frame/view/base/ScrollView";
 import channel_usual from "@src/mock-data/channel_usual";
@@ -109,9 +108,6 @@ export default class HomePage extends Page {
 
     onDestroy() {
         console.log(this.pageName + "-onDestroy");
-    }
-
-    key_back_event() {
     }
 
     onPlayStart() {

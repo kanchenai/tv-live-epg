@@ -287,9 +287,9 @@ export default class GroupView extends ScrollView {
 
         if (intoChild) {
             for (var child of this.childViews) {
-                if (child instanceof GroupView) {
+                if (child instanceof ScrollView) {
                     child.loadImageResource(true);
-                } else {
+                } else if(child instanceof ItemView){
                     child.loadImageResource();
                 }
             }
@@ -299,7 +299,7 @@ export default class GroupView extends ScrollView {
     setAttributeParam() {
         super.setAttributeParam();
 
-        var viewFocus = this.ele.hasAttribute("view-focus");
+        var firstFocus = this.ele.hasAttribute("first-focus");
 
         var up = View.parseAttribute("view-up", this.ele);//上
         var down = View.parseAttribute("view-down", this.ele);//下
@@ -342,7 +342,7 @@ export default class GroupView extends ScrollView {
             }
         }
 
-        return viewFocus;
+        return firstFocus;
     }
 
     /**
@@ -737,16 +737,16 @@ export default class GroupView extends ScrollView {
             switch (Keyboard.KEY_CODE) {
                 case Keyboard.KEY_UP:
                     toMiddle.left = toMiddle.left + child.width / 2;
+                    toMiddle.top = toMiddle.top + child.height;
                     break;
                 case Keyboard.KEY_DOWN:
                     toMiddle.left = toMiddle.left + child.width / 2;
-                    toMiddle.top = toMiddle.top + child.height;
                     break;
                 case Keyboard.KEY_LEFT:
+                    toMiddle.left = toMiddle.left + child.width;
                     toMiddle.top = toMiddle.top + child.height / 2;
                     break;
                 case Keyboard.KEY_RIGHT:
-                    toMiddle.left = toMiddle.left + child.width;
                     toMiddle.top = toMiddle.top + child.height / 2;
                     break;
                 default:
@@ -788,11 +788,11 @@ export default class GroupView extends ScrollView {
     static parseByEle(ele, viewManager, listenerLocation) {
         var groupView = new GroupView(viewManager, listenerLocation);
         groupView.ele = ele;
-        var viewDefault = groupView.setAttributeParam(ele);
+        var firstFocus = groupView.setAttributeParam(ele);
         groupView.bindImage();
         groupView.scroller.init();
         viewManager.eleToObject(groupView.scroller.ele, groupView, listenerLocation);//往内部执行
-        if (viewDefault) {
+        if (!viewManager.focusView && firstFocus) {
             viewManager.focusView = groupView;
         }
         return groupView;

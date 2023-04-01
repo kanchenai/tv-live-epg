@@ -20,10 +20,6 @@ export default [
         "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8"
     },
     {
-        "name": "余姚幸福生活",
-        "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8"
-    },
-    {
         "name": "嵊州新闻综合",
         "url": "http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8"
     },
@@ -70,18 +66,6 @@ export default [
     {
         "name": "盈江综合",
         "url": "http://live.ynurl.com/video/s10016-yjtv1hd/index.m3u8"
-    },
-    {
-        "name": "[德国]TeinsTV",
-        "url": "http://live1.markenfunk.com/t1/live/chunklist.m3u8"
-    },
-    {
-        "name": "捷克Retro (Opt-1)",
-        "url": "http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8"
-    },
-    {
-        "name": "美国CGTN (Opt-1)",
-        "url": "http://live.cgtn.com/500/prog_index.m3u8"
     },
     {
         "name": "青海经视",

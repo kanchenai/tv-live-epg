@@ -4,14 +4,16 @@ import PageManager from "@core/frame/page/PageManager";
 import {Scroller} from "@core/frame/view/base/ScrollView";
 import View from "@core/frame/view/base/View";
 import {PageLifeState} from "@core/frame/page/Page";
+import "@core/frame/view/css"
 
 require("../../css/style.css");
+
 
 /**
  * view-app的版本号
  * @type {string}
  */
-export var version = "0.2.4(2022-11-17)";
+export var version = "0.3.2(2023-03-19)";
 
 export default class Application extends GroupView {
     constructor(id) {
@@ -32,7 +34,7 @@ export default class Application extends GroupView {
         this.keyboard = new Keyboard();
 
         /**
-         * @type {VideoPlayer}
+         * @type {RealPlayer}
          * @private
          */
         this._player = null;
@@ -86,7 +88,7 @@ export default class Application extends GroupView {
     }
 
     create(page, param) {
-        this.onCreate(page, param);
+        this.onCreate(page, param);// 显示页面到前台
         this.startPage(page, param);
     }
 
@@ -170,8 +172,7 @@ export default class Application extends GroupView {
         if (page.lifeState == PageLifeState.STOP) {//停止
             page.destroy();
         }
-        var pageInfo = this.pageManager.popPageInfo();//将栈顶数据出栈
-        console.log("出栈数据：", pageInfo)
+
         if (this.pageList.length == 0) {
             this.keyboard.page = null;//最后一个页面销毁时的保护机制
             this.player.page = null;//最后一个页面销毁时的保护机制
@@ -179,12 +180,13 @@ export default class Application extends GroupView {
             this.destroy();//app销毁
         } else {
             var backResultData = page.backResultData;
-            this.pageToForeground(backResultData);
+            this.pageToForeground(backResultData);//当前页销毁，回到上一页
         }
     }
 
     /**
      * resume或create栈顶的Page
+     * 当前页销毁，回到上一页
      * @param backResultData
      */
     pageToForeground(backResultData) {
@@ -198,15 +200,21 @@ export default class Application extends GroupView {
         this.keyboard.page = null;//保护，防止异常触发
         this.player.page = null;//保护，防止异常触发
         page.isForeground = true;
-        if (page.lifeState == PageLifeState.BEFORE_CREATE) {//页面未创建
-            page.application = this;
-            var param = this.pageManager.popPageInfo().param;
+        var param = page.param;
+
+        if (page.lifeState == PageLifeState.BEFORE_CREATE) {//返回app时，页面未创建
+            this.pageManager.popPageInfo();
             page.create(param);
         } else if (page.lifeState == PageLifeState.STOP) {//页面停止，重新创建
-            var param = page.param;
-            this.pageManager.popPageInfo();//或者this.pageManager.removePageInfo(param);
+            page.ele.remove();//将当前节点从application中移除
+            //兼容ele.remove无效
+            if (this.ele.contains(this.ele)) {
+                this.ele.removeChild(this.ele);
+            }
+            this.pageManager.popPageInfo();
             page.create(param);
         }
+
         page.resume();
         if (backResultData) {
             page.onResult(backResultData);//将返回数据传递到上一个一个页面
@@ -223,7 +231,7 @@ export default class Application extends GroupView {
 
     /**
      * 在子类中重写，返回一个全局方法器
-     * @returns{VideoPlayer}
+     * @returns{RealPlayer}
      */
     getPlayerInstance() {
         console.error("获取播放器方法（getPlayInstance）未重写")
@@ -248,8 +256,7 @@ export default class Application extends GroupView {
      * @param param
      */
     onCreate(page, param) {
-        // 显示页面到前台
-        this.startPage(page, param);
+
     }
 
     onStop() {
@@ -307,10 +314,6 @@ export default class Application extends GroupView {
         }
         return a;
     }
-
-    $$(id) {
-        return document.getElementById(id);
-    }
 }
 
 class ApplicationScroller extends Scroller {
@@ -331,7 +334,7 @@ class ApplicationScroller extends Scroller {
 }
 
 /**
- * 给数组添加获取最后一个元素的方法
+ * 获取最后一个元素的方法
  * @returns {null}
  */
 Array.prototype.peek = function () {
