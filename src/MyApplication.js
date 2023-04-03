@@ -16,12 +16,15 @@ export default class MyApplication extends Application {
             }
             return page;
         }
+
+        this.backUrl = "";
     }
 
     onLaunch(urlParam) {
         console.log("onLaunch，地址栏参数：", urlParam);
         var firstPage = null;
         var param = null;
+        this.backUrl = decodeURIComponent(urlParam.backUrl || "");
         switch (urlParam.pageKey) {
             case "home":
                 firstPage = new HomePage();
@@ -48,10 +51,8 @@ export default class MyApplication extends Application {
 
     exitUrl() {
         var url = "";
-        if (false) {
-            url = "http://www.baidu.com";
-        } else {
-            url = "";
+        if (this.backUrl) {
+            url = this.backUrl;
         }
         return url;
     }
