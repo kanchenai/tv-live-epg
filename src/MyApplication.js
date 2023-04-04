@@ -2,8 +2,6 @@ import Application from "../core/frame/app/Application";
 import HomePage from "./page/HomePage";
 import AliWebPlayer from "@src/util/AliWebPlayer";
 
-require('./global_style.css')
-
 export default class MyApplication extends Application {
     constructor(id) {
         super(id);

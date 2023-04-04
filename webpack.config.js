@@ -101,8 +101,8 @@ module.exports = {
             filename: "index.html"
         })
     ],
-    mode: "development",//运行环境：开发环境
-    // mode: "production",//运行环境：生产环境
+    // mode: "development",//运行环境：开发环境
+    mode: "production",//运行环境：生产环境
 
     performance: {
         hints: 'error',//提示等级
@@ -114,7 +114,7 @@ module.exports = {
     },
     // devServer: {//一般使用默认
     // }
-    devtool: 'source-map',//打包时，注释掉这行
-    // devtool: false,//打包时，解注释这行
+    // devtool: 'source-map',//打包时，注释掉这行
+    devtool: false,//打包时，解注释这行
     stats: "errors-only",
 }
