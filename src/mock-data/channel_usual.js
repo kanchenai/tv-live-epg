@@ -1,7 +1,7 @@
 export default [
     {
         "name": "TEST",
-        "url": "http://39.135.138.60:18890/PLTV/88888910/224/3221225618/index.m3u8"
+        "url": "http://baidu.live.cqccn.com/__cl/cg:live/__c/hxjc_4K/__op/default/__f/index.m3u8"
     },
     {
         "name": "上虞3新商都",
