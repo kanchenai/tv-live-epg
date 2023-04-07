@@ -3,21 +3,6 @@ import HomePage from "./page/HomePage";
 import AliWebPlayer from "@src/util/AliWebPlayer";
 
 export default class MyApplication extends Application {
-    constructor(id) {
-        super(id);
-        this.pageManager.pageTypeCallback = function (pageName) {
-            var page = null;
-            switch (pageName) {
-                case "HomePage":
-                    page = new HomePage();
-                    break;
-            }
-            return page;
-        }
-
-        this.backUrl = "";
-    }
-
     onLaunch(urlParam) {
         console.log("onLaunch，地址栏参数：", urlParam);
         var firstPage = null;
@@ -25,10 +10,7 @@ export default class MyApplication extends Application {
         this.backUrl = decodeURIComponent(urlParam.backUrl || "");
         switch (urlParam.pageKey) {
             case "home":
-                firstPage = new HomePage();
-                break;
-            default:
-                firstPage = new HomePage();
+                firstPage = "HomePage";
                 break;
         }
         return {firstPage, param};

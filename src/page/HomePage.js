@@ -7,11 +7,6 @@ import channel_usual from "@src/mock-data/channel_usual";
 import PlayInfo from "@core/frame/player/PlayInfo";
 
 export default class HomePage extends Page {
-    constructor() {
-        super();
-        this.pageName = "HomePage";
-    }
-
     onCreate(param) {
         this.html = html;
         this.initView();
@@ -24,10 +19,6 @@ export default class HomePage extends Page {
         this.channel_list = this.findViewById("channel_list");
         this.channel_list.scrollLocate = ScrollCenter;
         this.channel_list.adapter = new ChannelAdapter();
-        this.channel_list.data = channel_usual;
-
-
-        // this.findEleById("background").style.display = "none"
 
         this.player = new VideoPlayer(this);
     }
@@ -42,11 +33,10 @@ export default class HomePage extends Page {
         this.player.onPlayStop = "onPlayStop";
         this.player.onPlayError = "";
         this.player.onPlayByTime = "onPlayByTime";
-
     }
 
     initUtil() {
-
+        this.channel_list.data = channel_usual;
     }
 
     onClickListener(view) {

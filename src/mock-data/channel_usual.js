@@ -1,5 +1,9 @@
 export default [
     {
+        "name": "TEST",
+        "url": "http://39.135.138.60:18890/PLTV/88888910/224/3221225618/index.m3u8"
+    },
+    {
         "name": "上虞3新商都",
         "url": "http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8"
     },
